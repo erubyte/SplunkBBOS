@@ -1,0 +1,218 @@
+- title: Move a field through time for prediction purposes
+  author: Tom LaGatta 
+  spl: |
+    | inputlookup app_usage.csv 
+    | reverse 
+    | streamstats window=1 current=f first(RemoteAccess) as RemoteAccessFromFuture 
+    | reverse
+  description: Align a future value with the features in the past based on some time delta (Time to Decision, Time to Action) for machine learning or predictive analytics.
+  tags:
+    - machinelearning
+    - stats
+
+- title: Normal curve
+  author: Alexander (Xander) Johnson 
+  spl: |
+    | makeresults count=50000 
+    | eval r = random() / (pow(2,31)-1) 
+    | eval r2 = random() / (pow(2,31)-1) 
+    | eval normal = sqrt(-2 * ln(r)) * cos(2 * pi() * r2) 
+    | bin normal span=0.1 
+    | stats count by normal 
+    | makecontinuous normal
+  description: 
+  tags:
+    - stats
+
+- title: Cumulative distribution function
+  author: Pierre Brunel
+  spl: | 
+    | stats count by X 
+    | eventstats sum(count) as total  
+    | eval probXi=count/total 
+    | sort X 
+    | streamstats sum(probXi) as CDF  
+  description: 
+  tags:
+    - stats
+
+- title: Pearson Correlation Coefficient
+  author: G. P. Burdell
+  spl: |
+    index=* 
+    | fields x y 
+    | eval n=1 
+    | eval xx=x*x 
+    | eval xy=x*y 
+    | eval yy=y*y 
+    | addcoltotals  
+    | tail 1 
+    | eval rho_xy=(xy/n-x/n*y/n)/(sqrt(xx/n-(x/n)*(x/n))*sqrt(yy/n-(y/n)*(y/n))) 
+    | fields rho_xy
+  description: Calculates the Pearson coefficient of two fields
+  tags:
+    - stats
+
+- title: Authentication anomalies
+  author: G. P. Burdell
+  spl: |
+    | tag=authentication action=success   
+    | iplocation src   
+    | eval date=strftime(epoch, "%Y-%m-%d %H:%M:%S")  
+    | eval short_lon=round(lon, 2)   
+    | eval short_lat=round(lat, 2)   
+    | strcat short_lat "," short_lon as latlon   
+    | transaction user maxspan=12h maxevents=2 mvlist=t mvraw=f delim="|"  
+    | eval first_src=mvindex(src,0)   
+    | eval last_src=mvindex(src,1)   
+    | where first_src!=last_src   
+    | eval first_city=mvindex(City,0)   
+    | eval second_city=mvindex(City,1)   
+    | where first_city!=second_city  
+    | eval first_latlon=mvindex(latlon, 0)   
+    | eval second_latlon=mvindex(latlon, 1)   
+    | haversine originField=first_latlon second_latlon units=mil   
+    | eval rate_mps = distance/duration   
+    | eval rate_mph = rate_mps * 3600   
+    | eval distance=round(distance, 2)   
+    | rename distance as "Distance (Miles)"  
+    | eval tdm=duration/60   
+    | eval tdm=round(tdm, 2)   
+    | rename tdm as "Time Difference (Minutes)"   
+    | rename rate_mph as "Speed (MPH)"  
+    | makemv delim="|" src  
+    | mvexpand src  
+    | rename src as clientip  
+    | fields user clientip latlon "Speed (MPH)"   
+    | search "Speed (MPH)" > 500  
+    | iplocation clientip  
+    | makemv delim="|" user  
+    | eval username=mvindex(user,0)  
+    | geostats count by username
+  description: Use the Haversine formula to identify whether a user would be able to travel the distance between login events
+  tags:
+    - auth
+
+- title: Find outliers
+  author: G. P. Burdell
+  spl: |
+    | stats count by host
+    | eventstats avg(count) as avg stdevp(count) as stdevp 
+    | eval ub=avg+2*stdevp, lb=avg-2*stdevp, is_outlier=if(count<lb, 1, if(count>ub, 1, 0)) 
+    | where is_outlier=1
+  description: Mathematical function to identify outliers; e.g., hosts with error counts that deviate by more than two standard deviations from the mean
+  tags:
+    - stats
+
+- title: Time between events
+  author: G. P. Burdell
+  spl: |
+    | sort _time  
+    | streamstats current=f global=f window=1 last(_time) as last_ts  
+    | eval time_since_last = _time - last_ts  
+    | fieldformat time_since_last = tostring(time_since_last, "duration")
+  description: Add a field to events that shows the time since the last event
+  tags:
+    - time
+
+- title: Filter by time between events
+  author: G. P. Burdell
+  spl: |
+    | sort _time 
+    | streamstats current=f global=f window=1 last(_time) as last_ts 
+    | eval time_since_last = _time - last_ts 
+    | fieldformat time_since_last = tostring(time_since_last, "duration") 
+    | where time_since_last > 60*60*24
+  description: Select events with more than a day separating them
+  tags:
+    - time
+
+- title: Detect clock skew
+  author: G. P. Burdell
+  spl: |
+    | rest /services/server/info 
+    | eval updated_t=round(strptime(updated, "%Y-%m-%dT%H:%M:%S%z")) 
+    | eval delta_t=now()-updated_t 
+    | eval delta=tostring(abs(delta_t), "duration") 
+    | table serverName, updated, updated_t, delta, delta_t
+  description: Check for server clock skew; if delta is anything other than ~1sec, clock skew is likely
+  tags:
+    - utils
+
+- title: Extract SQL Insert Params
+  author: G. P. Burdell
+  spl: |
+    sourcetype=stream:mysql* query="insert into*" 
+    | rex "insert into \S* \((?<aaa>[^)]+)\) values \((?<bbb>[^)]+)\)" 
+    | rex mode=sed field=bbb "s/\\\\\"//g" 
+    | makemv aaa delim="," 
+    | makemv bbb delim="," 
+    | eval a_kvfield = mvzip(aaa, bbb) 
+    | extract jam_kv_extract 
+    | timechart span=1s per_second(m_value) by m_name
+  description: Extracts fields from an SQL Insert statement
+  tags:
+    - fields
+
+- title: Search for errors
+  author: G. P. Burdell
+  spl: |
+    index=_internal sourcetype="splunkd" log_level="ERROR"  
+    | stats sparkline count dc(host) as hosts last(_raw) as last_raw_msg values(sourcetype) as sourcetype last(_time) as last_msg_time first(_time) as first_msg_time values(index) as index by punct  
+    | eval delta=round((first_msg_time-last_msg_time),2)  
+    | eval msg_per_sec=round((count/delta),2)  
+    | convert ctime(last_msg_time) ctime(first_msg_time)  
+    | table last_raw_msg count hosts sparkline msg_per_sec sourcetype index first_msg_time last_msg_time delta  
+    | sort -count
+  description: Identifies frequently occurring errors in the Splunk instance
+  tags:
+    - utils
+
+- title: Searchable indexes by user
+  author: G. P. Burdell
+  spl: |
+    | rest /services/data/indexes 
+    | search [     
+        | rest /services/data/indexes     
+        | dedup title     
+        | table title     
+        | search [             
+          | rest splunk_server=local /services/authorization/roles             
+          | search [                         
+            | rest splunk_server=local /services/authentication/users                         
+            | search [                                         
+                | rest /services/authentication/current-context                                         
+                | search type=splunk                                         
+                | table username                                         
+                | rename username as title ] 
+      | fields roles 
+      | mvexpand roles 
+      | rename roles as title] imported_srchIndexesAllowed=* 
+      | table imported_srchIndexesAllowed 
+      | rename imported_srchIndexesAllowed as title 
+      | mvexpand title] ] 
+    | stats values(splunk_server) as splunkserver by title 
+    | eval splunkserver=mvjoin(splunkserver,":") 
+    | lookup non_internal_indexes title as title OUTPUT description as description 
+    | fields title, description, splunkserver 
+    | rename title AS Index
+  description: Return the searchable indexes for the user
+  tags:
+    - utils
+
+- title: Days in the month
+  author: G. P. Burdell
+  spl: |
+    | eval days_in_month=mvindex(split(if(tonumber(strftime(_time,"%y"))%4=0,
+    "31,29,31,30,31,30,31,31,30,31,30,31",
+    "31,28,31,30,31,30,31,31,30,31,30,31"),","),
+    tonumber(strftime(_time,"%m"))-1)
+  description: Uses a lookup in a multi-value array to extract the number of days in the month
+  tags:
+    - time
+
+# - title: 
+#   author: 
+#   spl: 
+#   description: 
+#   tags:
