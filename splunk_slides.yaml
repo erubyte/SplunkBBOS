@@ -1,173 +1,2200 @@
-- year: 2020
-  slides:
-  - title: Master Joining Datasets Without Using Join
-    url: https://conf.splunk.com/files/2020/slides/TRU1761C.pdf
-  - title: TSTATS and PREFIX
-    url: https://conf.splunk.com/files/2020/slides/PLA1089C.pdf
-  - title: INGEST_EVAL and CLONE_SOURCETYPE: Advanced pipeline configurations
-    url: https://conf.splunk.com/files/2020/slides/PLA1154C.pdf
-  - title: SPL Rehab
-    url: https://conf.splunk.com/files/2020/slides/DEV1198C.pdf
-  - title: Best Practices for Actionable Alerts
-    url: https://conf.splunk.com/files/2020/slides/PLA1073C.pdf
-  - title: Alert-Fatigue-Induced Mutinies
-    url: https://conf.splunk.com/files/2020/slides/ITO1883B.pdf
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-
-- year: 2024
-  slides:
-  - title: Evolution of SPL - Meet SPL2
-    url: https://conf.splunk.com/files/2024/slides/DEV1442C.pdf
-  - title: Deep Learning for Compromised Account Detection Using Splunk
-    url: https://conf.splunk.com/files/2024/slides/DEV1474A.pdf
-  - title: How to Automatically Reduce False Positives with Generative AI
-    url: https://conf.splunk.com/files/2024/slides/SEC1423B.pdf
-  - title: Data Lake Federated Search for Amazon S3
-    url: https://conf.splunk.com/files/2024/slides/PLA1743B.pdf
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-
 - year: 2014
-  slides: 
-  - title: Observations and Recommendations on Splunk Performance 
+  slides:
+  - title: Observations and Recommendations on Splunk Performance
     url: https://conf.splunk.com/session/2014/conf2014_DritanBitincka_Splunk_UsingTrack.pdf
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
+  - title: Threat Intelligence: STIX and Stones Will Break Your Bones
+    url: https://conf.splunk.com/session/2014/conf2014_FredWilmot_Splunk_Security.pdf
+  - title: Transform E-Commerce the Domino's Pizza Way
+    url: https://conf.splunk.com/session/2014/conf2014_RTurner_Dominos_Business_Analytics.pdf
+  - title: Chris Kurtz Splunk Conf2014 Presentation
+    url: https://www.scribd.com/doc/316183310/Chris-Kurtz-Splunk-Conf2014-Presentation
+  - title: Onboarding Data Into Splunk
+    url: https://www.slideshare.net/slideshow/splunk-conf2014-onboarding-data-into-splunk/48729163
+  - title: Splunk for Data Science
+    url: https://www.slideshare.net/slideshow/conf2014-t-lagattaodegarriguessplunkbusinessanalytics/49848724
+  - title: Splunk Search Optimization
+    url: https://www.slideshare.net/slideshow/conf2014-julian-hartysplunkusingsplunk/44607597
+  - title: Creating an Interactive Transaction Profiler
+    url: https://www.slideshare.net/Splunk/conf2014-matthias-maiersplunkitoperations
+  - title: Getting Deeper Insights into your Virtualization and Storage with Splunk
+    url: https://www.slideshare.net/slideshow/splunk-conf2014/47877875
+  - title: Getting the Message
+    url: https://www.slideshare.net/slideshow/splunk-conf-2014-getting-the-message/40206647
+  - title: Best Practices for Splunk SSL
+    url: https://www.duanewaddle.com/splunk-conf-2014/
+  - title: Splunking the Java Virtual Machine
+    url: http://www.slideshare.net/damiendallimore/splunk-conf-2014-splunking-the-java-virtual-machine
+  - title: I Want that Cool Viz in Splunk!
+    url: https://conf.splunk.com/session/2014/conf2014_SKawasaki_Splunk_visualization.pdf
+  - title: Passwords are for Chumps
+    url: https://conf.splunk.com/session/2014/conf2014_DaveVeuve_Splunk_Security_Passwords.pdf
+  - title: Security Ninjutsu Part One
+    url: https://conf.splunk.com/session/2014/conf2014_DaveVeuve_Splunk_Security_Ninjutsu.pdf
 
 - year: 2015
   slides:
-  - title: Hunting the Known Unknowns (with DNS)
-    url: https://conf.splunk.com/files/2015/conf2015_SBrant_RKovar_Splunk_SecurityCompliance_HuntingKnownUnkownsWith.pdf
-  - title: Best Practices for Splunk SSL
-    url: http://conf.splunk.com/session/2015/conf2015_DWaddle_DefensePointSecurity_deploying_SplunkSSLBestPractices.pdf
+  - title: Beyond the Lookup Glass
+    url: https://conf.splunk.com/session/2015/conf2015-LookupTalk.pdf
   - title: Affordable Security: Making the most of free tools and data
     url: https://conf.splunk.com/session/2015/conf2015_CMerchant_Oracle_SecurityCompliance_AffordableSecurityMakingThe.pdf
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
+  - title: Data Integrity Control
+    url: https://conf.splunk.com/session/2015/conf2015_DBhagi_Splunk_SplunkEntWhatsNew_DataIntegrityControl.pdf
+  - title: Best Practices for Splunk SSL
+    url: http://conf.splunk.com/session/2015/conf2015_DWaddle_DefensePointSecurity_deploying_SplunkSSLBestPractices.pdf
+  - title: A Lap Around Developer Awesomeness In Splunk 6.3
+    url: http://conf.splunk.com/session/2015/conf2015_GBlock_INeeman_Splunk_Developing_ALapAroundDeveloper.pdf
+  - title: Hunting the Known Unknowns (with DNS)
+    url: https://conf.splunk.com/files/2015/conf2015_SBrant_RKovar_Splunk_SecurityCompliance_HuntingKnownUnkownsWith.pdf
+  - title: Making the Most of the New Splunk Scheduler
+    url: https://conf.splunk.com/session/2015/conf2015_PLucas_Splunk_SplunkEntWhatsNew_MakingTheMostOf.pdf
+  - title: Finding Advanced Attacks and Malware with Only 6 Windows EventIDs
+    url: https://conf.splunk.com/session/2015/conf2015_MGough_MalwareArchaelogy_SecurityCompliance_FindingAdvnacedAttacksAnd.pdf
+  - title: Security Operations Use Cases at Bechtel
+    url: https://conf.splunk.com/session/2015/conf2015_LTawfall_RChapman_Bechtel_SecurityCompliance_SecurityOperationsUseCases.pdf
+  - title: Building a Cyber Security Program with Splunk App for Enterprise Security
+    url: https://conf.splunk.com/session/2015/conf2015_JCampbell_Splunk_Security_BuildingCyberSecurityProgram.pdf
+  - title: Machine Learning and Analytics in Splunk
+    url: https://conf.splunk.com/session/2015/conf2015_VMishra_Splunk_BusinessAnalytics_MachineLearningAndAnalytics.pdf
+  - title: Optimizing Splunk Knowledge Objects – A Tale of Unintended Consequences
+    url: https://conf.splunk.com/session/2015/conf2015_MTrueblood_Splunk_SplunkEntWhatsNew_OptimizingSplunkKnowledge.pdf
+  - title: Splunk Search Pro Tips
+    url: https://conf.splunk.com/session/2015/conf2015_DAiello_Splunk_SplunkEntWhatsNew_SplunkSearchProTips.pdf
+  - title: Building Your App on an Accelerated Data Model
+    url: https://conf.splunk.com/session/2015/conf2015_HKlein_UberAgent_Developing_BuildingYourAppOnAcceleratedDataModel.pdf
+  - title: Security Ninjutsu Part Two: More Security Analytics, Correlation and Action!
+    url: https://conf.splunk.com/session/2015/conf2015_DVeuve_Splunk_SecurityCompliance_SecurityNinjutsuPartTwo.pdf
+  - title: Turning Indicators of Compromise into Tangible Protection
+    url: https://conf.splunk.com/session/2015/conf2015_APapadopoulos_Splunk_SecurityCompliance_TurningIndicatorsOfCompromise.pdf
+  - title: Building an Enterprise-grade Security Intelligence Platform at Yoox.com
+    url: https://conf.splunk.com/session/2015/conf2015_HAllegretti_Yoox_SecurityCompliance_BuildingEnterpriseGradeSecurity.pdf
+  - title: Breach Management in Splunk App for Enterprise Security
+    url: https://conf.splunk.com/session/2015/conf2015_JCurtis_Splunk_SecurityCompliance_BreachManagementInSplunk.pdf
+  - title: Orrstown Bank: Using Splunk Cloud and Anomaly Detection Capabilities To Fight a Billion Dollar Fraud Problem
+    url: https://conf.splunk.com/session/2015/conf2015_DKarns_OrrstownBank_BusinessAnalytics_UsingSplunkCloudAnomalyDetection.pdf
+  - title: Indicators to Adversaries – Intrusion Analysis Using the Diamond Model
+    url: https://conf.splunk.com/session/2015/conf2015_ABhatt_MHalbach_SecurityCompliance_IndicatorsToAdversariesIntrusionAnalysis.pdf
+  - title: Splunking The Endpoint
+    url: https://conf.splunk.com/session/2015/conf2015_Jbrodsky_Splunk_SecurityComplinace_SplunkingTheEndpoint_FINAL.pdf
+  - title: Royal Caribbean Cruise Lines: Centralizing Cybersecurity and Leveraging DNS Data to Identify Malware Patient Zero
+    url: https://conf.splunk.com/session/2015/conf2015_JMoore_RoyalCaribbean_SecurityCompliance_CentralizingCybersecurity.pdf
+  - title: Detecting Bank Account Takeover and Fraud Cyber Attacks with Splunk
+    url: https://conf.splunk.com/session/2015/conf2015_KDwyer_Splunk_SecurityCompliance_DetectingBankAccountTakeover.pdf
+  - title: Build A Sample App to Streamline Security Operations – And Put It to Use Immediately
+    url: https://conf.splunk.com/session/2015/conf2015_DMcKay_DHerald_Splunk_SecurityCompliance_BuildSampleAppStreamline.pdf
 
-- year: 2022
-  slides: 
-  - title: Splunking Gender Equality Data
-    url: https://conf.splunk.com/files/2022/slides/COM1618B.pdf
-  - title: Proactively Monitor and Perform Network Forensic Analysis
-    url: https://conf.splunk.com/files/2022/slides/SEC1278B.pdf
-  - title: New Search and Dashboard Experience for Splunk Cloud Platform
-    url: https://conf.splunk.com/files/2022/slides/PLA1573C.pdf
-  - title: Providing Data and Vision to the Security Community
-    url: https://conf.splunk.com/files/2022/slides/SEC1652A.pdf
-  - title: SOAR Utility Apps to Level Your Playbooks
-    url: https://conf.splunk.com/files/2022/slides/SEC1700C.pdf
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
+- year: 2016
+  slides:
+  - title: Powershell Power Hell: Hunting For Malicious Use of Powershell with Splunk
+    url: https://conf.splunk.com/files/2016/slides/powershell-power-hell-hunting-for-malicious-use-of-powershell-with-splunk.pdf
+  - title: Behind the Magnifying Glass: How Search Works
+    url: https://conf.splunk.com/files/2016/slides/behind-the-magnifying-glass-how-search-works.pdf
+  - title: Fields, Indexed Tokens, And You
+    url: https://conf.splunk.com/files/2016/slides/fields-indexed-tokens-and-you.pdf
+  - title: Search Optimization
+    url: https://conf.splunk.com/files/2016/slides/search-optimization.pdf
+  - title: Lesser Known Search Commands
+    url: https://conf.splunk.com/files/2016/slides/lesser-known-search-commands.pdf
+  - title: The Power of the Search Processing Language
+    url: https://conf.splunk.com/files/2016/slides/power-of-spl.pdf
+  - title: Solve Big Problems with Machine Learning
+    url: https://conf.splunk.com/files/2016/slides/solve-big-problems-with-machine-learning.pdf
+  - title: Fast Time to Extraordinary Value - Machine Learning Toolkit
+    url: https://conf.splunk.com/files/2016/slides/fast-time-to-extraordinary-value-quickly-add-powerful-machine-learning-to-your-splunk-apps-and-dashboards-with-splunks-new-machine-learning-toolkit.pdf
+  - title: A (VERY) Brief Introduction to Machine Learning for ITOA
+    url: https://conf.splunk.com/files/2016/slides/a-very-brief-introduction-to-machine-learning-for-itoa.pdf
+  - title: Keeping The Junk Out Of Splunk - Maximizing Value
+    url: https://conf.splunk.com/files/2016/slides/keeping-the-junk-out-of-splunk-maximizing-the-value-of-your-splunk-license-and-being-prepared-for-floods-of-data.pdf
+  - title: Splunk Performance Reloaded Best Practices For Optimal Performance
+    url: https://conf.splunk.com/files/2016/slides/splunk-performance-reloaded-best-practices-for-a-performant-splunk-deployment.pdf
+  - title: Observations And Recommendations On Splunk Performance
+    url: https://conf.splunk.com/files/2016/slides/observations-and-recommendations-on-splunk-performance.pdf
+  - title: It's 10pm - Do You Know Where Your Data Is?
+    url: https://conf.splunk.com/files/2016/slides/its-10pm-do-you-know-where-your-data-is.pdf
+  - title: Architecting Splunk for High Availability and Disaster Recovery
+    url: https://conf.splunk.com/files/2016/slides/architecting-splunk-for-high-availability-and-disaster-recovery.pdf
+  - title: Indexer Clustering Internals, Scaling and Performance
+    url: https://conf.splunk.com/files/2016/slides/indexer-clustering-internals-scaling-and-performance.pdf
+  - title: Easing into Clustering
+    url: https://conf.splunk.com/files/2016/slides/easing-into-clustering.pdf
+  - title: Multi-tenant Architecture: Securing Splunk to Combat Snooping
+    url: https://conf.splunk.com/files/2016/slides/multi-tenant-architecture-securing-splunk-to-combat-snooping.pdf
+  - title: TCO Savings Through Storage Reduction
+    url: https://conf.splunk.com/files/2016/slides/tco-savings-through-storage-reduction.pdf
+  - title: Dashboard Wizardry
+    url: https://conf.splunk.com/files/2016/slides/dashboard-wizardry.pdf
+  - title: What's New: Custom Visualizations
+    url: https://conf.splunk.com/files/2016/slides/whats-new-custom-visualizations.pdf
+  - title: HTTP Event Collector in Splunk: More Super Powers
+    url: https://conf.splunk.com/files/2016/slides/http-event-collector-in-splunk-more-super-powers.pdf
+  - title: Faster Splunk App Certification with Splunk AppInspect
+    url: https://conf.splunk.com/files/2016/slides/faster-splunk-app-certification-with-splunk-appinspect.pdf
+  - title: Onboard your data faster with Add-on Builder
+    url: https://conf.splunk.com/files/2016/slides/onboard-your-data-faster-using-the-splunk-add-on-builder.pdf
+  - title: Monitoring the Industrial Internet of Things
+    url: https://conf.splunk.com/files/2016/slides/monitoring-the-industrial-internet-of-things-a-guide-to-app.pdf
+  - title: MQTT, CEP and the Other LMNOPs of the IoT
+    url: https://conf.splunk.com/files/2016/slides/mqtt-cep-and-the-other-lmnops-of-the-iot.pdf
+  - title: Splunk And Control Systems Enabling A Secure IoT Strategy
+    url: https://conf.splunk.com/files/2016/slides/splunk-and-control-systems-enabling-a-secure-iot-strategy.pdf
+  - title: Internet of Big Rolling Things at DB Cargo's European Rolling Stock
+    url: https://conf.splunk.com/files/2016/slides/internet-of-big-rolling-things-at-db-cargos-european-rolling-stock.pdf
+  - title: Splunk and Open Source Integrations with Spark, Solr, Hadoop
+    url: https://conf.splunk.com/files/2016/slides/splunk-and-open-source-integrations-with-spark-solr-hadoop.pdf
+  - title: Confidence in Conclusions: Leveraging Splunk for Data-Driven Decision Making
+    url: https://conf.splunk.com/files/2016/slides/confidence-in-conclusions-leveraging-splunk-for-data-driven-decision-making.pdf
+  - title: Leveraging Splunk Analytics For Business Intelligence And Devops
+    url: https://conf.splunk.com/files/2016/slides/leveraging-splunk-analytics-for-business-intelligence-and-devops-api-activity-and-performance.pdf
+  - title: Leveraging Splunk's Ecosystem for Your Own Products
+    url: https://conf.splunk.com/files/2016/slides/leveraging-splunks-ecosystem-for-your-own-products.pdf
+  - title: Step Up Your App Dev Game
+    url: https://conf.splunk.com/files/2016/slides/step-up-your-app-dev-game.pdf
+  - title: How to Extend Splunk with an AI Assistant for Pattern Recognition
+    url: https://conf.splunk.com/files/2016/slides/how-to-extend-splunk-with-an-ai-assistant-for-pattern-recognition.pdf
+  - title: Deploying Splunk Enterprise on Microsoft Azure Cloud
+    url: https://conf.splunk.com/files/2016/slides/deploying-splunk-enterprise-on-microsoft-azure-cloud.pdf
+  - title: How To Run Splunk As A Docker Image?
+    url: https://conf.splunk.com/files/2016/slides/how-to-run-splunk-as-a-docker-image.pdf
+  - title: Building a Crystal Ball: Forecasting Future Values for Multiple Metrics
+    url: https://conf.splunk.com/files/2016/slides/building-a-crystal-ball-forecasting-future-values-for-multiple-metrics.pdf
+  - title: Become a Regular Expressions Ninja and Unlock Your Splunk Potential
+    url: https://conf.splunk.com/files/2016/slides/become-a-regular-expressions-ninja-and-unlock-your-splunk-potential.pdf
+  - title: Beyond Regular Regular Expressions
+    url: https://conf.splunk.com/files/2016/slides/beyond-regular-regular-expressions.pdf
+  - title: Integrating with Third-party Tools Using Splunk Alert Actions
+    url: https://conf.splunk.com/files/2016/slides/integrating-with-third-party-tools-using-splunk-alert-actions.pdf
+  - title: Hunting the Known Unknowns: The PowerShell Edition
+    url: https://conf.splunk.com/files/2016/slides/hunting-the-known-unknowns-the-powershell-edition.pdf
+  - title: Conquering the IDS Alert Challenge with Splunk
+    url: https://conf.splunk.com/files/2016/slides/conquering-the-ids-alert-challenge-with-splunk.pdf
+  - title: Anomaly Hunting with Splunk Software
+    url: https://conf.splunk.com/files/2016/slides/anomaly-hunting-with-splunk-software.pdf
+  - title: Splunking the Endpoint: Hands-on
+    url: https://conf.splunk.com/files/2016/slides/splunking-the-endpoint-hands-on.pdf
+  - title: Detecting the Adversary Post-compromise with Threat Models and Behavioral Analytics
+    url: https://conf.splunk.com/files/2016/slides/detecting-the-adversary-post-compromise-with-threat-models-and-behavioral-analytics.pdf
+  - title: Through the Security Looking Glass: Operationalizing Cloud Event Logs
+    url: https://conf.splunk.com/files/2016/slides/through-the-security-looking-glass-operationalizing-cloud-event-logs.pdf
+  - title: Exploring the Frameworks of Splunk Enterprise Security
+    url: https://conf.splunk.com/files/2016/slides/exploring-the-frameworks-of-splunk-enterprise-security.pdf
+  - title: Maturing Workday's SOC with Splunk
+    url: https://conf.splunk.com/files/2016/slides/maturing-workdays-soc-with-splunk.pdf
+  - title: Speeding up Incident Response using Splunk
+    url: https://conf.splunk.com/files/2016/slides/speeding-up-incident-response-using-splunk.pdf
+  - title: Live Demonstration: Bypassing Application Whitelisting and Splunking It
+    url: https://conf.splunk.com/files/2016/slides/live-demonstration-bypassing-application-whitelisting-and-splunking-it.pdf
+  - title: Global Enterprise Security Without Security Analysts: Yes, You Can!
+    url: https://conf.splunk.com/files/2016/slides/global-enterprise-security-without-security-analysts-yes-you-can.pdf
+  - title: Demystifying Machine Learning and Anomaly Detection: Practical Use Cases
+    url: https://conf.splunk.com/files/2016/slides/demystifying-machine-learning-and-anomaly-detection-practical-use-cases.pdf
+  - title: Finding Straw in a Hay Field: The Art of DevOps Log Farming
+    url: https://conf.splunk.com/files/2016/slides/finding-straw-in-a-hay-field-the-art-of-devops-log-farming.pdf
+  - title: Time After Time: Comparing Time Ranges in Splunk
+    url: https://conf.splunk.com/files/2016/slides/time-after-time-comparing-time-ranges-in-splunk.pdf
+  - title: Anatomy of a Successful Splunk IT Service Intelligence Deployment
+    url: https://conf.splunk.com/files/2016/slides/anatomy-of-a-successful-splunk-it-service-intelligence-deployment.pdf
+  - title: It Seemed Like a Good Idea at the Time: Architectural Anti-patterns
+    url: https://conf.splunk.com/files/2016/slides/it-seemed-like-a-good-idea-at-the-time-architectural-anti-patterns.pdf
+  - title: Splunk Gone Wild: Innovating a Large Splunk Solution
+    url: https://conf.splunk.com/files/2016/slides/splunk-gone-wild-innovating-a-large-splunk-solution-at-the-department-of-veterans-affairs.pdf
+  - title: How MD Anderson Cancer Center Uses Splunk to Deliver World-class Healthcare
+    url: https://conf.splunk.com/files/2016/slides/how-md-anderson-cancer-center-uses-splunk-to-deliver-world-class-healthcare.pdf
+  - title: An Ongoing Mission of Service Discovery
+    url: https://conf.splunk.com/files/2016/slides/an-ongoing-mission-of-service-discovery.pdf
+  - title: Metrics-driven DevOps with Jenkins and Splunk
+    url: https://conf.splunk.com/files/2016/slides/metrics-driven-devops-with-jenkins-and-splunk.pdf
+  - title: Shop Smart At The KV Store
+    url: https://conf.splunk.com/files/2016/slides/shop-smart-at-the-kv-store-best-value-tricks-from-the-splunk-kv-store-and-rest-api.pdf
+  - title: How to Scale: From _raw to tstats (and beyond!)
+    url: https://conf.splunk.com/files/2016/slides/how-to-scale-from-raw-to-tstats.pdf
+  - title: Security Ninjutsu Part Three: Real World Correlation Searches
+    url: https://conf.splunk.com/files/2016/slides/security-ninjutsu-part-three-real-world-correlation-searches.pdf
+  - title: Best Practices and Better Practices for Users
+    url: https://conf.splunk.com/files/2016/slides/best-practices-and-better-practices-for-users.pdf
+  - title: Splunk @ Home
+    url: https://conf.splunk.com/files/2016/slides/splunk-at-home.pdf
+
+- year: 2017
+  slides:
+  - title: Splunking the 2016 Presidential Election
+    url: https://conf.splunk.com/files/2017/slides/splunking-the-2016-presidential-election-data-panel.pdf
+  - title: Best Practices and Better Practices for Admins
+    url: https://conf.splunk.com/files/2017/slides/best-practices-and-better-practices-for-admins.pdf
+  - title: Whats New in Splunk Enterprise and Cloud
+    url: https://conf.splunk.com/files/2017/slides/whats-new-in-splunk-enterprise-and-cloud.pdf
+  - title: Friction Free Splunk App Certification
+    url: https://conf.splunk.com/files/2017/slides/friction-free-splunk-app-certification.pdf
+  - title: Revealing the Magic: The Life Cycle of a Splunk Search
+    url: https://conf.splunk.com/files/2017/slides/revealing-the-magic-the-life-cycle-of-a-splunk-search.pdf
+  - title: Atlassians Journey Building a Logging Pipeline with Splunk on AWS
+    url: https://conf.splunk.com/files/2017/slides/traversing-the-cloud-atlassians-journey-building-a-logging-pipeline-with-splunk-on-aws.pdf
+  - title: SplunkTrust AMA Panel
+    url: https://conf.splunk.com/files/2017/slides/panel-advice-from-the-splunktrust-ask-me-anything-1-of-2.pdf
+  - title: Making the Most of the Splunk Scheduler
+    url: https://conf.splunk.com/files/2017/slides/making-the-most-of-the-splunk-scheduler.pdf
+  - title: Best Practices and Better Practices for Users
+    url: https://conf.splunk.com/files/2017/slides/best-practices-and-better-practices-for-users.pdf
+  - title: Speed Up Your Searches!
+    url: https://conf.splunk.com/files/2017/slides/speed-up-your-searches.pdf
+  - title: How Splunkd Works
+    url: https://conf.splunk.com/files/2017/slides/how-splunkd-works.pdf
+  - title: Frictionless Splunk App Certification with AppInspect
+    url: https://conf.splunk.com/files/2017/slides/faster-splunk-app-certification-with-splunk-appinspect.pdf
+  - title: Panel: Ask Me Anything with the SplunkTrust
+    url: https://conf.splunk.com/files/2017/slides/panel-advice-from-the-splunktrust-ask-me-anything-1-of-2.pdf
+  - title: Splunking Your Z/OS Mainframe
+    url: https://conf.splunk.com/files/2017/slides/splunking-your-zos-mainframe.pdf
+  - title: How to Scale Your Splunk Environment
+    url: https://conf.splunk.com/files/2017/slides/how-to-scale-from-raw-to-tstats.pdf
+  - title: Shop Smart At The KV Store
+    url: https://conf.splunk.com/files/2017/slides/shop-smart-at-the-kv-store-best-value-tricks-from-the-splunk-kv-store-and-rest-api.pdf
+  - title: Easing into Clustering
+    url: https://conf.splunk.com/files/2017/slides/easing-into-clustering.pdf
+  - title: Indexer Clustering Internals, Scaling and Performance
+    url: https://conf.splunk.com/files/2017/slides/indexer-clustering-internals-scaling-and-performance.pdf
+  - title: Multiplexing Alerts with the New Alert Manager
+    url: https://conf.splunk.com/files/2017/slides/multiplexing-alerts-with-the-new-alert-manager.pdf
+  - title: Dashboard Best Practices
+    url: https://conf.splunk.com/files/2017/slides/dashboard-wizardry.pdf
+
+- year: 2018
+  slides:
+  - title: A Deep Dive Into Splunk LDAP Authentication and How it Affects Cluster Performance
+    url: https://static.rainfocus.com/splunk/splunkconf18/sess/1523340475734001cAJl/finalPDF/A-Deep-Dive-Into-1379_1538782399746001rPuN.pdf
+  - title: Regular Expressions for Incident Response
+    url: https://static.rainfocus.com/splunk/splunkconf18/sess/1523284100143001OVPV/finalPDF/Regular-Expressions-Incident-Responses-1343_1538790905728001rFCG.pdf
+  - title: Enterprise Security Health Check
+    url: https://static.rainfocus.com/splunk/splunkconf18/sess/1523486400518001xr40/finalPDF/SEC1570_EnterpriseSecurityHealthCheck_Final_1538510388118001Sv0Y.pdf
+  - title: Behind the Magnifying Glass: How Search Works
+    url: https://static.rainfocus.com/splunk/splunkconf18/sess/1523558790516001KFjM/finalPDF/Behind-The-Magnifying-Glass-1734_1538786592130001CBKR.pdf
+  - title: How Operation Technology (OT) Monitoring fits well with Machine Learning Toolkit (MLTK)
+    url: https://static.rainfocus.com/splunk/splunkconf18/sess/1523457239224001l8By/finalPDF/How-Operation-Technology-Monitoring-1484_1538789118934001Cg49.pdf
+  - title: Revealing the Magic: How Splunk 7.2 improved search performance by 50%
+    url: https://static.rainfocus.com/splunk/splunkconf18/sess/15230307008970013eU6/finalPDF/FN1303_RevealingTheMagic_1539123987021001TcI3.pdf
+  - title: Go From Dashboards to Applications With Ease
+    url: https://static.rainfocus.com/splunk/splunkconf18/sess/1523479078077001AMoo/finalPDF/DEV1545_GoFromDashboardsToApplications_Final_1538663931596001GCsE.pdf
+  - title: Getting logs and metrics into metricstore
+    url: https://static.rainfocus.com/splunk/splunkconf18/sess/152358836537300102rl/finalPDF/Getting-Logs-and-Metrics-1888_1538788710193001rJsB.pdf
+  - title: Digital Transformation in Manufacturing
+    url: https://static.rainfocus.com/splunk/splunkconf18/sess/1523486196816001x29n/finalPDF/IoT1568_DigitalTransformationinManufacturing_Final_1538804478041001rz9H.pdf
+  - title: Simulating the Adversary to Test Your Splunk Security Analytics
+    url: https://static.rainfocus.com/splunk/splunkconf18/sess/1522696002986001hj1a/finalPDF/Simulating-the-Adversary-Test-1244_1538791048709001YJnK.pdf
+  - title: Dockerized Deep Learning
+    url: https://static.rainfocus.com/splunk/splunkconf18/sess/1523455772333001KEn6/finalPDF/Dockerized-Deep-Learning-1478_1538787890679001YxJP.pdf
+  - title: IIoT Security and Production Optimization with Asset Trees
+    url: https://static.rainfocus.com/splunk/splunkconf18/sess/1523352394130001ZjVw/finalPDF/IIoT-Security-and-Production-1387_1538789431600001CaGs.pdf
+  - title: Assessing Threat Intelligence from Sharing Communities
+    url: https://static.rainfocus.com/splunk/splunkconf18/sess/1523486455444001luSF/finalPDF/Assessing-Threat-Intelligence-Sharing-1571_1538782551848001rhKL.pdf
+  - title: Building a Security Monitoring Strategy
+    url: https://static.rainfocus.com/splunk/splunkconf18/sess/1523538581536001Pq3N/finalPDF/SEC1672_BuildingASecurityMonitoring_Final%20%281%29_15385960547480012LOM.pdf
+  - title: Say Goodbye to Your Big Alert Pipeline
+    url: https://static.rainfocus.com/splunk/splunkconf18/sess/1523456018499001lxCD/finalPDF/SEC1479_SayGoodbyeToYourBig_Final_1538509127390001SxPF.pdf
+  - title: Automating Incident Response with Splunk Phantom
+    url: https://static.rainfocus.com/splunk/splunkconf18/sess/1522866348976001BbdK/finalPDF/Automating-Incident-Response-Splunk-1272_1538858708484001CCIn.pdf
+  - title: Detection Technique Deep Dive
+    url: https://www.splunk.com/en_us/resources/videos/detection-technique-deep-dive.html
 
 - year: 2019
-  slides: 
-  - title: Smart Store Deep Dive
-    url: https://conf.splunk.com/files/2019/slides/FN2168.pdf
+  slides:
+  - title: Advanced Splunk Usage for Application Delivery Success
+    url: https://conf.splunk.com/files/2019/slides/APP1702.pdf
+  - title: Anomaly Detection Using Unsupervised Machine Learning in Splunk ITSI
+    url: https://conf.splunk.com/files/2019/slides/ITO1210.pdf
+  - title: Application Performance Monitoring in a Complex Microservices World
+    url: https://conf.splunk.com/files/2019/slides/FN2058.pdf
+  - title: Architecting Enterprise Security and Threat Hunting with Splunk
+    url: https://conf.splunk.com/files/2019/slides/SEC1403.pdf
+  - title: Behind the Scenes of Splunk's Large Scale Deployment
+    url: https://conf.splunk.com/files/2019/slides/TRU1461.pdf
+  - title: Building a Data Lake on SmartStore
+    url: https://conf.splunk.com/files/2019/slides/FN2174.pdf
+  - title: Building a Pipelines Platform for Event-Driven Data Analytics with Splunk
+    url: https://conf.splunk.com/files/2019/slides/DEV1378.pdf
+  - title: CI/CD Pipelines and Splunk Integration
+    url: https://conf.splunk.com/files/2019/slides/DEV1172.pdf
+  - title: Case Study: Call Center Agent Performance Monitoring
+    url: https://conf.splunk.com/files/2019/slides/BA1959.pdf
+  - title: Cloud Native Monitoring: Logs, Metrics & Tracing
+    url: https://conf.splunk.com/files/2019/slides/NDS1939.pdf
+  - title: Communicating Security Insights for Faster Response
+    url: https://conf.splunk.com/files/2019/slides/SEC1212.pdf
+  - title: Compliance and Validation with Splunk Enterprise Security
+    url: https://conf.splunk.com/files/2019/slides/SEC1715.pdf
+  - title: Creating Your Own APM in Splunk
+    url: https://conf.splunk.com/files/2019/slides/FN2105.pdf
   - title: Data Models: Bridging the Knowledge Gap to Work with Complex Data
     url: https://conf.splunk.com/files/2019/slides/IT2579.pdf
+  - title: Data Science for the Rest of Us: Using Splunk to Operationalize AI
+    url: https://conf.splunk.com/files/2019/slides/FN2310.pdf
+  - title: Detecting Ransomware Using Splunk
+    url: https://conf.splunk.com/files/2019/slides/SEC1729.pdf
+  - title: DevOps Metrics that Matter
+    url: https://conf.splunk.com/files/2019/slides/DEV1383.pdf
+  - title: Enterprise Security Use Cases and Playbooks to Get You Started
+    url: https://conf.splunk.com/files/2019/slides/SEC1217.pdf
+  - title: Evolution of the Splunk SmartStore
+    url: https://conf.splunk.com/files/2019/slides/FN2156.pdf
+  - title: Exploring the Splunk Security Posture: Container Monitoring
+    url: https://conf.splunk.com/files/2019/slides/SEC1756.pdf
+  - title: Faster Alerting with Real-Time Searches in Splunk Enterprise Security
+    url: https://conf.splunk.com/files/2019/slides/SEC1184.pdf
+  - title: From Data to Business Insights with Splunk
+    url: https://conf.splunk.com/files/2019/slides/BA1965.pdf
+  - title: Harnessing Kubernetes Metrics Data with Splunk
+    url: https://conf.splunk.com/files/2019/slides/FN2202.pdf
+  - title: High-Throughput Log Delivery at Scale
+    url: https://conf.splunk.com/files/2019/slides/PLA1572.pdf
+  - title: How Splunk Helps the US Navy Protect its Infrastructure
+    url: https://conf.splunk.com/files/2019/slides/SEC1210.pdf
+  - title: How to Work with Customer Success at Splunk
+    url: https://conf.splunk.com/files/2019/slides/CUST101.pdf
+  - title: Improving Security Analytics with MITRE ATT&CK Framework
+    url: https://conf.splunk.com/files/2019/slides/SEC1699.pdf
+  - title: Key Metrics for IT Service Intelligence Success
+    url: https://conf.splunk.com/files/2019/slides/ITO1598.pdf
+  - title: Machine Learning for Security Analytics
+    url: https://conf.splunk.com/files/2019/slides/SEC1481.pdf
+  - title: Making Sense of Splunk SmartStore Data
+    url: https://conf.splunk.com/files/2019/slides/FN2163.pdf
+  - title: Mastering Search for DevOps and Security Success
+    url: https://conf.splunk.com/files/2019/slides/DEV1064.pdf
+  - title: Measuring Success in Your Splunk Deployment
+    url: https://conf.splunk.com/files/2019/slides/PLA1367.pdf
+  - title: Monitoring Cloud Environments with Splunk
+    url: https://conf.splunk.com/files/2019/slides/PLA1589.pdf
+  - title: Observability for the Modern Enterprise
+    url: https://conf.splunk.com/files/2019/slides/FN2250.pdf
+  - title: Operationalizing Threat Intelligence in Splunk
+    url: https://conf.splunk.com/files/2019/slides/SEC1657.pdf
+  - title: Optimizing Splunk in Large Scale Enterprise Environments
+    url: https://conf.splunk.com/files/2019/slides/ITO1717.pdf
+  - title: Powering Business Growth with Splunk Insights
+    url: https://conf.splunk.com/files/2019/slides/BA1906.pdf
+  - title: Scaling Splunk and Making it Work for You
+    url: https://conf.splunk.com/files/2019/slides/TRU1783.pdf
+  - title: Sizing Splunk SmartStore - Spend Less and Get More 
+    url: https://conf.splunk.com/files/2019/slides/FN1435.pdf
+  - title: Smart Alerting for Enterprise Security
+    url: https://conf.splunk.com/files/2019/slides/SEC1831.pdf
+  - title: Smart Store Deep Dive
+    url: https://conf.splunk.com/files/2019/slides/FN2168.pdf
+  - title: Splunking the Internet of Things
+    url: https://conf.splunk.com/files/2019/slides/FN2119.pdf
+  - title: Using Real-Time Data to become the UK's Most Recommended ISP
+    url: https://conf.splunk.com/files/2019/slides/IT1953.pdf
   - title: Using Splunk Enterprise to Fight Data Exfiltration
     url: https://conf.splunk.com/files/2019/slides/SEC1179.pdf
-  - title: Send your spreadsheets to Splunk!
-    url: https://conf.splunk.com/files/2019/slides/FN2192.pdf
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
+  - title: Visualizing and Investigating Cyber Threats with MITRE ATT&CK
+    url: https://conf.splunk.com/files/2019/slides/SEC1677.pdf
+
+- year: 2020
+  slides:
+  - title: Administrators Anonymous
+    url: https://conf.splunk.com/files/2020/slides/TRU1315C.pdf
+  - title: Alert-Fatigue-Induced Mutinies
+    url: https://conf.splunk.com/files/2020/slides/ITO1883B.pdf
+  - title: A Very Brief Introduction to Splunk Observability
+    url: https://conf.splunk.com/files/2020/slides/OBS1250C.pdf
+  - title: Best Practices for Actionable Alerts
+    url: https://conf.splunk.com/files/2020/slides/PLA1073C.pdf
+  - title: Best Practices for Working with Splunk Cloud
+    url: https://conf.splunk.com/files/2020/slides/best-practices-for-working-with-splunk-cloud.pdf
+  - title: CI/CD for Splunk Apps with GitLab
+    url: https://conf.splunk.com/files/2020/slides/DEV1188C.pdf
+  - title: Deep Learning for Threat Detection
+    url: https://conf.splunk.com/files/2020/slides/PLA1155C.pdf
+  - title: Fast, Off-the-Shelf Testing for Splunk Apps
+    url: https://conf.splunk.com/files/2020/slides/DEV1332C.pdf
+  - title: Getting Started with Splunk Essentials
+    url: https://conf.splunk.com/files/2020/slides/ITO1108B.pdf
+  - title: How to Use Splunk with SAML and Multiple ID Providers
+    url: https://conf.splunk.com/files/2020/slides/PLA1248C.pdf
+  - title: INGEST_EVAL and CLONE_SOURCETYPE: Advanced Pipeline Configurations
+    url: https://conf.splunk.com/files/2020/slides/PLA1154C.pdf
+  - title: Job Inspector – Clara-fication
+    url: https://conf.splunk.com/files/2020/slides/TRU1143C.pdf
+  - title: Machine Learning & ITSI Sitting In a Tree
+    url: https://conf.splunk.com/files/2020/slides/ITO1820C.pdf
+  - title: Master Joining Datasets Without Using Join
+    url: https://conf.splunk.com/files/2020/slides/TRU1761C.pdf
+  - title: Our Journey to 100+TB/day: Zero Touch Ingest and Search Scaling
+    url: https://conf.splunk.com/files/2020/slides/PLA1073C.pdf
+  - title: Predicting Application Performance with Anomaly Detection
+    url: https://conf.splunk.com/files/2020/slides/PLA1089C.pdf
+  - title: SPL Rehab
+    url: https://conf.splunk.com/files/2020/slides/DEV1198C.pdf
+  - title: Splunk Cloud – A Peek Under the Hood
+    url: https://conf.splunk.com/files/2020/slides/splunk-cloud-a-peek-under-the-hood.pdf
+  - title: The Big Data Beard Virtual Race To .CONF20
+    url: https://conf.splunk.com/files/2020/slides/SFU1337C.pdf
+  - title: Zero Touch Ingest and Search Scaling up to 100+TB/day
+    url: https://conf.splunk.com/files/2020/slides/PLA1380A.pdf
+
+- year: 2021
+  slides:
+  - title: Go From Zero-to-Automated CI/CD App Building and Testing in 30-Minutes
+    url: https://conf.splunk.com/files/2021/slides/DEV1560B.pdf
+  - title: Debugging Splunk Apps, Add-ons, and Configurations using Visual Studio Code
+    url: https://conf.splunk.com/files/2021/slides/DEV1147C.pdf
+  - title: Growing and Managing Splunk Enterprise as a Team of One
+    url: https://conf.splunk.com/files/2021/slides/PLA1410C.pdf
+  - title: ITSI Service Templates
+    url: https://conf.splunk.com/files/2021/slides/PLA1327B.pdf
+  - title: Monitoring Console Health Troubleshooting
+    url: https://conf.splunk.com/files/2021/slides/TRU1172B.pdf
+  - title: From Search to Tstats: Efficient Statistical Searches
+    url: https://conf.splunk.com/files/2021/slides/TRU1133B.pdf
+  - title: Building Service Templates and Automatic Service Tree
+    url: https://conf.splunk.com/files/2021/slides/ITO1165C.pdf
+  - title: IT Service Intelligence Deployment Best Practices
+    url: https://conf.splunk.com/files/2021/slides/ITO1576C.pdf
+  - title: What’s New in Splunk Enterprise Security
+    url: https://conf.splunk.com/files/2021/slides/SEC1271A.pdf
+  - title: Anomaly Mining in Windows Event Logs
+    url: https://conf.splunk.com/files/2021/slides/SEC1395A.pdf
+  - title: How BlockFi Is Using Machine Learning for Crypto Safety
+    url: https://conf.splunk.com/files/2021/slides/SEC1527B.pdf
+  - title: Accelerating Remediation @ T-Mobile
+    url: https://conf.splunk.com/files/2021/slides/ITO1425B.pdf
+  - title: Anomaly Detection, Sealed with a KISS
+    url: https://conf.splunk.com/files/2021/slides/PLA1553B.pdf
+
+- year: 2022
+  slides:
+  - title: A Beginner’s Guide to SOAR: Automate 5 Basic Security Processes in Under 30 Minutes
+    url: https://conf.splunk.com/files/2022/slides/SEC1304C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1304C_1080.mp4
+  - title: Accelerate Investigations With Intelligence Management
+    url: https://conf.splunk.com/files/2022/slides/SEC1507C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1507C_1080.mp4
+  - title: Accelerate Your Reach To Get Insights From Hybrid World and Across Compliance Boundaries With Splunk Federated Search
+    url: https://conf.splunk.com/files/2022/slides/PLA1718C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1718C_1080.mp4
+  - title: A Data-Driven Digital Bank Journey
+    url: https://conf.splunk.com/files/2022/slides/PLA1377A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1377A_1080.mp4
+  - title: Admin Console: A Single, Unified Interface for All Your Cloud Admin Needs
+    url: https://conf.splunk.com/files/2022/slides/PLA1671C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1671C_1080.mp4
+  - title: Administrators Anonymous IV: Splunk Best Practices and Useful Tricks I Learned the Hard Way
+    url: https://conf.splunk.com/files/2022/slides/PLA1135B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1135B_1080.mp4
+  - title: AI, ML.....I Call BS : The ‘Risky’ Reality of Machine Learning for Security Threat Detection
+    url: https://conf.splunk.com/files/2022/slides/SEC1209C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1209C_1080.mp4
+  - title: AIOps: The Way to Zero Touch Operations
+    url: https://conf.splunk.com/files/2022/slides/OBS1610B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1610B_1080.mp4
+  - title: AIOps Use Cases With Splunk. No Bullsh… Just IT!
+    url: https://conf.splunk.com/files/2022/slides/OBS1299C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1299C_1080.mp4
+  - title: All in on Climate: Using Data To Drive Climate Solutions and Reduce Emissions in the Race to Net-zero
+    url: https://conf.splunk.com/files/2022/slides/COM1468A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/COM1468A_1080.mp4
+  - title: A Quick And Scalable Way to Consolidate Alerts and Reduce Noise With ITSI and Event Analytics
+    url: https://conf.splunk.com/files/2022/slides/OBS1485B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1485B_1080.mp4
+  - title: Automated Data Pipeline for Containerized Ingest Service of Data Into Splunk From Ring Data Lake in AWS
+    url: https://conf.splunk.com/files/2022/slides/PLA1361B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1361B_1080.mp4
+  - title: Automate Log Onboarding With Splunk!
+    url: https://conf.splunk.com/files/2022/slides/PLA1107B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1107B_1080.mp4
+  - title: Automate Mission Critical Medical Benefits and Payments Process Monitoring
+    url: https://conf.splunk.com/files/2022/slides/PLA1350B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1350B_1080.mp4
+  - title: Best Practices and Better Practices for Splunk Development
+    url: https://conf.splunk.com/files/2022/slides/DEV1168C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/DEV1168C_1080.mp4
+  - title: Best Practices and Better Practices for Actionable Alerts
+    url: https://conf.splunk.com/files/2022/slides/PLA1171C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1171C_1080.mp4
+  - title: Be the First to Know: Faster Alerting and Easier Monitoring With Splunk® Mobile
+    url: https://conf.splunk.com/files/2022/slides/PLA1488A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1488A_1080.mp4
+  - title: Beyond REGULAR Regular Expressions - v3.0
+    url: https://conf.splunk.com/files/2022/slides/PLA1261B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1261B_1080.mp4
+  - title: Blockchain, NFTS and Splunk: A Match Made for Web3
+    url: https://conf.splunk.com/files/2022/slides/PLA1622C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1622C_1080.mp4
+  - title: Bootstrap Your Data Driven Insights With Machine Learning
+    url: https://conf.splunk.com/files/2022/slides/PLA1252C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1252C_1080.mp4
+  - title: Build Detection as Code Like the Splunk Threat Research Team
+    url: https://conf.splunk.com/files/2022/slides/SEC1197C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1197C_1080.mp4
+  - title: Building Cyber Resiliency Through Better Detection, Investigation, and Remediation
+    url: https://conf.splunk.com/files/2022/slides/SEC1509C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1509C_1080.mp4
+  - title: Building Smarter Playbooks Faster
+    url: https://conf.splunk.com/files/2022/slides/SEC1216B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1216B_1080.mp4
+  - title: Catching Attackers and Your Red Team With Splunk
+    url: https://conf.splunk.com/files/2022/slides/SEC1702A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1702A_1080.mp4
+  - title: CISA and Log4j in Your SIEM SOAR Casa - Integrating Nation State Apt IOCS Into Your Splunk Environment
+    url: https://conf.splunk.com/files/2022/slides/SEC1345B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1345B_1080.mp4
+  - title: Clara-Fication: Finding and Improving Expensive Searches
+    url: https://conf.splunk.com/files/2022/slides/PLA1162B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1162B_1080.mp4
+  - title: Collaboration and Crystal Balls
+    url: https://conf.splunk.com/files/2022/slides/OBS1722B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1722B_1080.mp4
+  - title: Collected for Profit, Repurposed for Social Good: Using Advertising Data to Support Global Development
+    url: https://conf.splunk.com/files/2022/slides/COM1214B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/COM1214B_1080.mp4
+  - title: Convergence of AI Led Insights as Service
+    url: https://conf.splunk.com/files/2022/slides/PLA1435B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1435B_1080.mp4
+  - title: Curating Your Risk Ecology: Making Risk Based Alerting Magick
+    url: https://conf.splunk.com/files/2022/slides/SEC1144C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1144C_1080.mp4
+  - title: Custom Threshold Windows for Real Business Cycles
+    url: https://conf.splunk.com/files/2022/slides/OBS1306A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1306A_1080.mp4
+  - title: Dashboard Design and Best Practices
+    url: https://conf.splunk.com/files/2022/slides/PLA1583C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1583C_1080.mp4
+  - title: Dashboarding Wowzas! Getting to Know Splunk® Dashboard Studio
+    url: https://conf.splunk.com/files/2022/slides/PLA1128C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1128C_1080.mp4
+  - title: Data Onboarding: Best Practices and Troubleshooting Masterclass
+    url: https://conf.splunk.com/files/2022/slides/PLA1446B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1446B_1080.mp4
+  - title: Debug Deep Dive: Using Visual Studio Code to Debug Splunk Code Wherever It Runs
+    url: https://conf.splunk.com/files/2022/slides/DEV1385C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/DEV1385C_1080.mp4
+  - title: Delivering Delight: How Pipeline Analytics Reveals and Enables Successful DevSecOps Teams
+    url: https://conf.splunk.com/files/2022/slides/SEC1339C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1339C_1080.mp4
+  - title: Deploying Splunk at Massive Scale - A Salesforce Story
+    url: https://conf.splunk.com/files/2022/slides/PLA1678B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1678B_1080.mp4
+  - title: Designing and Managing a Large Scale Splunk Platform
+    url: https://conf.splunk.com/files/2022/slides/PLA1601B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1601B_1080.mp4
+  - title: Detecting Server Side Request Forgeries in AWS With Splunk® Enterprise, ES and Stream
+    url: https://conf.splunk.com/files/2022/slides/SEC1481C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1481C_1080.mp4
+  - title: Detection Technique Deep Dive
+    url: https://conf.splunk.com/files/2022/slides/SEC1428B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1428B_1080.mp4
+  - title: DevSecOps Delivers Results! [More Than the Latest Buzzword...Only From Splunk]
+    url: https://conf.splunk.com/files/2022/slides/SEC1383A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1383A_1080.mp4
+  - title: DevSecOps - Detecting Suspicious GitHub Behavior With Risk Based Alerting and Enterprise Security
+    url: https://conf.splunk.com/files/2022/slides/SEC1198C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1198C_1080.mp4
+  - title: DevSecOps: Why You Should Care and How To Get Started
+    url: https://conf.splunk.com/files/2022/slides/OBS1648C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1648C_1080.mp4
+  - title: Did You Mean To Do That? How Tide Engineers &amp;quot;Spot&amp;quot; the Risks and Drive Up Quality
+    url: https://conf.splunk.com/files/2022/slides/SEC1321A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1321A_1080.mp4
+  - title: Discover Infrastructure Observability for Modern Applications and Rapidly Changing Kubernetes Environments with Splunk!
+    url: https://conf.splunk.com/files/2022/slides/OBS1674C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1674C_1080.mp4
+  - title: Dynamic Asset Inventory Generation: Fixing the Toughest Compliance Problem Nobody Knows About
+    url: https://conf.splunk.com/files/2022/slides/SEC1154B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1154B_1080.mp4
+  - title: Dynamic Splunk Data, Delivered Where Your Executives Live
+    url: https://conf.splunk.com/files/2022/slides/PLA1122B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1122B_1080.mp4
+  - title: Elevating Women in National Security With Splunk
+    url: https://conf.splunk.com/files/2022/slides/PLA1132B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1132B_1080.mp4
+  - title: Eliminating Alert Fatigue: 9 Ways One Team Reduced Alerts by 80% In a Month
+    url: https://conf.splunk.com/files/2022/slides/OBS1126C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1126C_1080.mp4
+  - title: Embrace, Extend, Enjoy: Using OpenTelemetry in a “We Can’t” World
+    url: https://conf.splunk.com/files/2022/slides/OBS1464B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1464B_1080.mp4
+  - title: Emotional Intelligence to Supercharge Your Success
+    url: https://conf.splunk.com/files/2022/slides/COM1318B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/COM1318B_1080.mp4
+  - title: Enabling Hybrid Cloud Monitoring
+    url: https://conf.splunk.com/files/2022/slides/OBS1356B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1356B_1080.mp4
+  - title: Ensuring Availability to Enroll 14 Million Americans in Healthcare
+    url: https://conf.splunk.com/files/2022/slides/OBS1639C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1639C_1080.mp4
+  - title: Expect More From Your Threat Intelligence in Splunk® Enterprise Security and Splunk® SOAR
+    url: https://conf.splunk.com/files/2022/slides/SEC1592B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1592B_1080.mp4
+  - title: Extending Observability to Modern Applications and Deployment Methods: Accelerating Application Modernization on AWS
+    url: https://conf.splunk.com/files/2022/slides/OBS1301B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1301B_1080.mp4
+  - title: Fields, Indexed Tokens and You
+    url: https://conf.splunk.com/files/2022/slides/PLA1466B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1466B_1080.mp4
+  - title: Finding Threats Better With Splunk® Common Information Model (CIM) in Your Searches and Custom Add-ons
+    url: https://conf.splunk.com/files/2022/slides/DEV1603C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/DEV1603C_1080.mp4
+  - title: First Class Express, RBA Delivers at the Federal Level
+    url: https://conf.splunk.com/files/2022/slides/SEC1358B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1358B_1080.mp4
+  - title: Flex Index: A Low Cost Ingest and Search Solution for Your Long Term Data Needs
+    url: https://conf.splunk.com/files/2022/slides/PLA1697A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1697A_1080.mp4
+  - title: Forget Add-on Builder! Build Splunk Platform Apps With Config Explorer!
+    url: https://conf.splunk.com/files/2022/slides/DEV1160B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/DEV1160B_1080.mp4
+  - title: Fusing Intelligence Into Splunk® SOAR
+    url: https://conf.splunk.com/files/2022/slides/SEC1647C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1647C_1080.mp4
+  - title: Generating Test Data in Seconds! Is This for Real?
+    url: https://conf.splunk.com/files/2022/slides/DEV1437B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/DEV1437B_1080.mp4
+  - title: Geohazards Monitoring: Protecting Norwegian Communities From Rockslides With Splunk® Enterprise, and How We Are Doing It
+    url: https://conf.splunk.com/files/2022/slides/COM1324B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/COM1324B_1080.mp4
+  - title: Get Started With the All New Search and Dashboard Experience for Splunk® Cloud Platform
+    url: https://conf.splunk.com/files/2022/slides/PLA1573C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1573C_1080.mp4
+  - title: Git Good With Splunk: Commit to Config Versioning and Deployment Automation for Your Splunk Infrastructure
+    url: https://conf.splunk.com/files/2022/slides/PLA1402B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1402B_1080.mp4
+  - title: GitHub + Splunk: Take the sH Out of Application Security
+    url: https://conf.splunk.com/files/2022/slides/SEC1566B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1566B_1080.mp4
+  - title: Got Assets? Defending Your Assets Part Two: You Asked for It!
+    url: https://conf.splunk.com/files/2022/slides/SEC1219B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1219B_1080.mp4
+  - title: Got Splunk® Enterprise, Now What? The “Work Smarter, Not Harder” Unofficial Splunk Admin’s Guide To Getting the Most Bang for Your Buck With Splunk® Enterprise
+    url: https://conf.splunk.com/files/2022/slides/COM1657B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/COM1657B_1080.mp4
+  - title: Growing a Successful Observability Practice From Crawling, To Walking, To Running
+    url: https://conf.splunk.com/files/2022/slides/OBS1654B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1654B_1080.mp4
+  - title: High Speed Metrics With the Forza Video Games on Splunk Platform
+    url: https://conf.splunk.com/files/2022/slides/OBS1157B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1157B_1080.mp4
+  - title: Homeoffice Journey at Deutsche Bahn: An Unexpected Journey
+    url: https://conf.splunk.com/files/2022/slides/PLA1494B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1494B_1080.mp4
+  - title: Home on the Range : Detection Engineering With Splunk Attack Range
+    url: https://conf.splunk.com/files/2022/slides/SEC1189C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1189C_1080.mp4
+  - title: How a Major Australian Retailer Proactively Monitor and Perform Network Forensic Analysis
+    url: https://conf.splunk.com/files/2022/slides/SEC1278B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1278B_1080.mp4
+  - title: How an Online Retailer Group Tamed Black Friday and Other DevOps Stories
+    url: https://conf.splunk.com/files/2022/slides/OBS1254C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1254C_1080.mp4
+  - title: How Care.com Reduces MTTR Using Splunk® Observability Products
+    url: https://conf.splunk.com/files/2022/slides/OBS1574B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1574B_1080.mp4
+  - title: How Expedia Group Enables Self-Service Management and Deployment of &amp;gt;2000 Apps With CI/CD Splunk App Deployments With Splunk® AppInspect Validation and You Can Too!
+    url: https://conf.splunk.com/files/2022/slides/DEV1703B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/DEV1703B_1080.mp4
+  - title: How ING Gets 24/7 Visibility Into the Performance and Availability of Their Internal and Consumer-Facing Web Applications
+    url: https://conf.splunk.com/files/2022/slides/OBS1329B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1329B_1080.mp4
+  - title: How T-Mobile Increases Splunk User Proficiency With a World-Class Center of Excellence
+    url: https://conf.splunk.com/files/2022/slides/PLA1590B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1590B_1080.mp4
+  - title: How to Train an English to SPL™ Translation Model
+    url: https://conf.splunk.com/files/2022/slides/PLA1152C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1152C_1080.mp4
+  - title: How To Use Splunk® Observability Products to Delight Customers and Drive Conversion as You Deploy Continuously
+    url: https://conf.splunk.com/files/2022/slides/OBS1269B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1269B_1080.mp4
+  - title: How We Use Splunk AlwaysOn Profiling to Monitor and Troubleshoot Our Monolithic Services: Whistic’s Experience
+    url: https://conf.splunk.com/files/2022/slides/OBS1239C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1239C_1080.mp4
+  - title: Hunting The Depths of the Internet for Cobalt Strike Team Servers
+    url: https://conf.splunk.com/files/2022/slides/SEC1750C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1750C_1080.mp4
+  - title: Improve Day to Day Operations with Splunk® Enterprise
+    url: https://conf.splunk.com/files/2022/slides/COM1281B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/COM1281B_1080.mp4
+  - title: India’s Leading Ladies of Splunk: How an A-team of Splunk Accredited Consultants Broke Invisible Ceilings at India’s Largest Banks
+    url: https://conf.splunk.com/files/2022/slides/COM1149B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/COM1149B_1080.mp4
+  - title: Introducing Ingest Actions: Filter, Mask, Route, Repeat
+    url: https://conf.splunk.com/files/2022/slides/PLA1224A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1224A_1080.mp4
+  - title: Introducing Log Observer Connect: Powering Observability with Splunk® Cloud Platform Logs
+    url: https://conf.splunk.com/files/2022/slides/OBS1303C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1303C_1080.mp4
+  - title: Introducing the Next Generation of Incident Management within Splunk® Observability Cloud
+    url: https://conf.splunk.com/files/2022/slides/OBS1558A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1558A_1080.mp4
+  - title: Is Your Data Lying to You? Avoiding the Pitfalls of Dark Data
+    url: https://conf.splunk.com/files/2022/slides/PLA1730B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1730B_1080.mp4
+  - title: Is Your Electric Car Giving You Sky High Power Bills? Splunk to the Rescue!
+    url: https://conf.splunk.com/files/2022/slides/DEV1439B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/DEV1439B_1080.mp4
+  - title: IT Essentials - The Fast Pass to Value With Splunk for IT Operations
+    url: https://conf.splunk.com/files/2022/slides/OBS1373C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1373C_1080.mp4
+  - title: ITSI - An Introduction and What's New Since .conf21
+    url: https://conf.splunk.com/files/2022/slides/OBS1208C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1208C_1080.mp4
+  - title: ITSI Enriched Alerting: Incorporating Call-to-Action Links and Insight Direct to Analysts to Reduce Response and Resolution Times
+    url: https://conf.splunk.com/files/2022/slides/OBS1444B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1444B_1080.mp4
+  - title: It's Not the Amount of Alerts, It's How You Use Them
+    url: https://conf.splunk.com/files/2022/slides/SEC1515A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1515A_1080.mp4
+  - title: It’s Your Cloud! Take Control of It With the ACS
+    url: https://conf.splunk.com/files/2022/slides/PLA1389B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1389B_1080.mp4
+  - title: Jump to Hyperspace - Publish Apps at Lightspeed with Open SOARce
+    url: https://conf.splunk.com/files/2022/slides/SEC1104C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1104C_1080.mp4
+  - title: Just the Data You Want, Nothing More, Nothing Less
+    url: https://conf.splunk.com/files/2022/slides/PLA1597C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1597C_1080.mp4
+  - title: Learn and Succeed Faster With Splunk Community
+    url: https://conf.splunk.com/files/2022/slides/COM1267B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/COM1267B_1080.mp4
+  - title: Learnings and Best Practices From Rappi and Splunk’s Engineering Experts
+    url: https://conf.splunk.com/files/2022/slides/OBS1432B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1432B_1080.mp4
+  - title: Learn Your Data - Getting Started With Exploring Data via the UI and SPL™
+    url: https://conf.splunk.com/files/2022/slides/PLA1422B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1422B_1080.mp4
+  - title: Let AIOps Do the Hard Work: Zero-touch Operations at Scale Explained
+    url: https://conf.splunk.com/files/2022/slides/OBS1823.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1823_1080.mp4
+  - title: Level Up Your Splunk Apps Using the Splunk Dashboards Framework and UI Toolkit
+    url: https://conf.splunk.com/files/2022/slides/DEV1619C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/DEV1619C_1080.mp4
+  - title: Linux Threat Detection with Attack Range
+    url: https://conf.splunk.com/files/2022/slides/SEC1215C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1215C_1080.mp4
+  - title: Log4j Matchmaking: An Introduction To Generating Adversarial Logs
+    url: https://conf.splunk.com/files/2022/slides/SEC1258C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1258C_1080.mp4
+  - title: Making Moves Under Pressure | Black Women Leaders Paving a Pathway to Leadership
+    url: https://conf.splunk.com/files/2022/slides/COM1436B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/COM1436B_1080.mp4
+  - title: Making Your Splunk App Look Sweet With SUIT
+    url: https://conf.splunk.com/files/2022/slides/DEV1204B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/DEV1204B_1080.mp4
+  - title: Master Index Sizing Configuration and Monitoring To Avoid Data Loss
+    url: https://conf.splunk.com/files/2022/slides/PLA1627B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1627B_1080.mp4
+  - title: Master Joining Datasets Without Using Join
+    url: https://conf.splunk.com/files/2022/slides/PLA1528B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1528B_1080.mp4
+  - title: Maximizing Performance, Scalability and Operational Efficiency With Kubernetes and Splunk® SmartStore
+    url: https://conf.splunk.com/files/2022/slides/PLA1656B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1656B_1080.mp4
+  - title: Monitor and Troubleshoot Across Cloud and Hybrid IT To Minimize Alert Storms
+    url: https://conf.splunk.com/files/2022/slides/OBS1338C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1338C_1080.mp4
+  - title: Monitoring as a Service - Our Pursuit for the Perfect Air-Gapped Splunk Architecture
+    url: https://conf.splunk.com/files/2022/slides/PLA1723B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1723B_1080.mp4
+  - title: Monolith to Microservices: Prepare for the Shift
+    url: https://conf.splunk.com/files/2022/slides/OBS1429B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1429B_1080.mp4
+  - title: Muffle the |
+    url: https://conf.splunk.com/files/2022/slides/OBS1251B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1251B_1080.mp4
+  - title: Navy SOARing With Splunk
+    url: https://conf.splunk.com/files/2022/slides/SEC1584C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1584C_1080.mp4
+  - title: New Synthetics Experience in Splunk® Observability Cloud Provides 24/7 Visibility Into Application Downtime and Performance
+    url: https://conf.splunk.com/files/2022/slides/OBS1293A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1293A_1080.mp4
+  - title: One App To Rule Them All: Applying Machine Learning To Find Them
+    url: https://conf.splunk.com/files/2022/slides/SEC1471B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1471B_1080.mp4
+  - title: OpenTelemetry in the Field: Practical Examples From Atlassian
+    url: https://conf.splunk.com/files/2022/slides/OBS1412B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1412B_1080.mp4
+  - title: OpenTelemetry: Meet the Developers
+    url: https://conf.splunk.com/files/2022/slides/OBS1146C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1146C_1080.mp4
+  - title: Out With the Old; In With the New! Migrating Your Monitoring From Legacy Windows and *Nix Splunk Apps to ITSI and IT Essentials Work
+    url: https://conf.splunk.com/files/2022/slides/OBS1493C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1493C_1080.mp4
+  - title: Phasing (and Taming) Your Splunk® Cloud Migration
+    url: https://conf.splunk.com/files/2022/slides/PLA1469B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1469B_1080.mp4
+  - title: PII Doesn’t Have To Be a Four Letter Word…
+    url: https://conf.splunk.com/files/2022/slides/SEC1418C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1418C_1080.mp4
+  - title: Power Your Workforce With Splunk® Augmented Reality
+    url: https://conf.splunk.com/files/2022/slides/PLA1137A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1137A_1080.mp4
+  - title: Preparing for an Industrial Cybersecurity Incident
+    url: https://conf.splunk.com/files/2022/slides/SEC1634B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1634B_1080.mp4
+  - title: Product Quality Analytics Helps Intel Detect, Understand and Act Fast
+    url: https://conf.splunk.com/files/2022/slides/PLA1386B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1386B_1080.mp4
+  - title: Purple Teaming -Build, Attack, and Defend Your Organization
+    url: https://conf.splunk.com/files/2022/slides/SEC1609C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1609C_1080.mp4
+  - title: Pushing a Phantom: Playbook Architecture To Get the Team to Actually (Splunk) SOAR
+    url: https://conf.splunk.com/files/2022/slides/SEC1266B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1266B_1080.mp4
+  - title: Rapid Deployment of ITSI Services Using Service Templates and Import From CSV or Search
+    url: https://conf.splunk.com/files/2022/slides/OBS1312C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1312C_1080.mp4
+  - title: React UI and Splunk: Fast, Flexible and Really, Really, Ridiculously Good Looking Dashboards
+    url: https://conf.splunk.com/files/2022/slides/DEV1564B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/DEV1564B_1080.mp4
+  - title: Ready, Set, SOAR: How Utility Apps Can Up Level Your Playbooks!
+    url: https://conf.splunk.com/files/2022/slides/SEC1700C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1700C_1080.mp4
+  - title: Reducing Time-to-Resolution With Interactive Runbooks
+    url: https://conf.splunk.com/files/2022/slides/OBS1663C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1663C_1080.mp4
+  - title: Responding to Risk Notables at Machine Speed Using Automation
+    url: https://conf.splunk.com/files/2022/slides/SEC1359C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1359C_1080.mp4
+  - title: SCADA, OT &amp;amp; Cybersecurity, Oh My!
+    url: https://conf.splunk.com/files/2022/slides/SEC1200C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1200C_1080.mp4
+  - title: Scalability and Efficiency With the OpenTelemetry Collector in Kubernetes®
+    url: https://conf.splunk.com/files/2022/slides/OBS1668C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1668C_1080.mp4
+  - title: Scaling Lookups for Search Enrichments Using KV Store As-a-Service
+    url: https://conf.splunk.com/files/2022/slides/PLA1159C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1159C_1080.mp4
+  - title: Search Time Restrictions - A Strategy for Data Segregation in a Corporate Structure
+    url: https://conf.splunk.com/files/2022/slides/PLA1500B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1500B_1080.mp4
+  - title: Search Your Cloud Data with the New Splunk Federated Search Feature for Amazon S3
+    url: https://conf.splunk.com/files/2022/slides/PLA1604A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1604A_1080.mp4
+  - title: Secrets From Professional Service: Navigating to a Successful Splunk® Cloud Platform Deployment
+    url: https://conf.splunk.com/files/2022/slides/PLA1115B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1115B_1080.mp4
+  - title: Secure Your Productivity Applications With Splunk
+    url: https://conf.splunk.com/files/2022/slides/SEC1320B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1320B_1080.mp4
+  - title: Shorten Investigations of Threats Against Your Cloud-native Apps Using Splunk and JupiterOne
+    url: https://conf.splunk.com/files/2022/slides/SEC1275B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1275B_1080.mp4
+  - title: Simplifying Data Ingestion and Monitoring of Google Cloud Platform™ Data Sources in Splunk
+    url: https://conf.splunk.com/files/2022/slides/PLA1354B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1354B_1080.mp4
+  - title: Slide Into My DM....As: Centralized Data Model Acceleration
+    url: https://conf.splunk.com/files/2022/slides/PLA1349B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1349B_1080.mp4
+  - title: So Now You Have Workload Pricing, How Does It Make Cents?
+    url: https://conf.splunk.com/files/2022/slides/PLA1661C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1661C_1080.mp4
+  - title: Splunk and AWS Simplify Data Ingestion and Monitoring of AWS Data Sources in Splunk® Cloud Platform
+    url: https://conf.splunk.com/files/2022/slides/PLA1351B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1351B_1080.mp4
+  - title: Splunk and COVID Shield at the University of Illinois at Urbana-Champaign
+    url: https://conf.splunk.com/files/2022/slides/PLA1497B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1497B_1080.mp4
+  - title: Splunk Assist: Cloud-Powered Insights at Your Fingertips
+    url: https://conf.splunk.com/files/2022/slides/PLA1136A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1136A_1080.mp4
+  - title: Splunkbase™ App Development Made Easy With CI/CD
+    url: https://conf.splunk.com/files/2022/slides/DEV1518B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/DEV1518B_1080.mp4
+  - title: Splunk® Cloud Developer Edition - Get Your App Cloud Ready With a Splunk Cloud Deployment
+    url: https://conf.splunk.com/files/2022/slides/DEV1352C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/DEV1352C_1080.mp4
+  - title: Splunk® Dashboard Studio: Level Up Your Dashboards With Interactivity
+    url: https://conf.splunk.com/files/2022/slides/PLA1314B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1314B_1080.mp4
+  - title: Splunk Distributed Search 101
+    url: https://conf.splunk.com/files/2022/slides/PLA1448B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1448B_1080.mp4
+  - title: Splunk® Enterprise Security: Delivering Enhanced Security Coverage at Transport for New South Wales With Dynamic Data Enrichment
+    url: https://conf.splunk.com/files/2022/slides/SEC1426B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1426B_1080.mp4
+  - title: Splunk for SAP - Insights Into the Black Box
+    url: https://conf.splunk.com/files/2022/slides/OBS1274A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1274A_1080.mp4
+  - title: Splunking Ransomware for White Papers and No Profits
+    url: https://conf.splunk.com/files/2022/slides/SEC1427C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1427C_1080.mp4
+  - title: Splunking the Endpoint VI: Return of the Endpoint
+    url: https://conf.splunk.com/files/2022/slides/SEC1357B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1357B_1080.mp4
+  - title: Splunk in P&amp;amp;U: Empowering OT and the Grid
+    url: https://conf.splunk.com/files/2022/slides/SEC1456B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1456B_1080.mp4
+  - title: Splunk Is in the Lobby! How the McLaren Shadow Team Use Splunk to Level Up F1 Esports Performance
+    url: https://conf.splunk.com/files/2022/slides/PLA1455B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1455B_1080.mp4
+  - title: Splunk® Log Observer: A Log Investigation Experience Designed for Developers and SREs
+    url: https://conf.splunk.com/files/2022/slides/OBS1263C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1263C_1080.mp4
+  - title: Splunk® Mobile: Get Started With Mobile Experiences to Quickly and Securely Turn Data Into Doing™
+    url: https://conf.splunk.com/files/2022/slides/PLA1670A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1670A_1080.mp4
+  - title: Splunk® Operator for Kubernetes: Amadeus and Splunk on Customer Use Cases and Deployment
+    url: https://conf.splunk.com/files/2022/slides/PLA1353C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1353C_1080.mp4
+  - title: Splunk® Security Essentials 3.6 - Gain Situational Awareness by Managing All Your Security Content
+    url: https://conf.splunk.com/files/2022/slides/SEC1459A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1459A_1080.mp4
+  - title: Splunk Simplifies Data Ingestion and Monitoring of Azure Data Sources
+    url: https://conf.splunk.com/files/2022/slides/PLA1505C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1505C_1080.mp4
+  - title: Splunk® SOAR + SIEM: An Automation Powerhouse for Cyber Incident Response
+    url: https://conf.splunk.com/files/2022/slides/SEC1676B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1676B_1080.mp4
+  - title: Sugar Cane Growers Find Their Sweet Spot
+    url: https://conf.splunk.com/files/2022/slides/COM1454B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/COM1454B_1080.mp4
+  - title: Supply Chain Data Fabric: Just-in-Time Insights
+    url: https://conf.splunk.com/files/2022/slides/PLA1360C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1360C_1080.mp4
+  - title: Sydney New Year Eve 2022 - Transport for NSW Handsfree Monitoring Services Using Splunk
+    url: https://conf.splunk.com/files/2022/slides/OBS1111B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1111B_1080.mp4
+  - title: Tales of a Colorblind Admin: Making More Accessible Dashboards and Apps
+    url: https://conf.splunk.com/files/2022/slides/COM1103C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/COM1103C_1080.mp4
+  - title: The Developer's App Starter Kit
+    url: https://conf.splunk.com/files/2022/slides/DEV1127C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/DEV1127C_1080.mp4
+  - title: The Inside Word on Insider Threat Detection
+    url: https://conf.splunk.com/files/2022/slides/SEC1236C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1236C_1080.mp4
+  - title: The Skills Revolution: How Splunk and Its Workforce Development Partners Are Expanding Diversity in Tech by Providing Skills Training To Underserved Communities
+    url: https://conf.splunk.com/files/2022/slides/COM1374B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/COM1374B_1080.mp4
+  - title: Thriving in the New Hybrid Workplace
+    url: https://conf.splunk.com/files/2022/slides/COM1307C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/COM1307C_1080.mp4
+  - title: Transform Your Intelligence for Informed, Actionable Automation
+    url: https://conf.splunk.com/files/2022/slides/SEC1371C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1371C_1080.mp4
+  - title: Troubleshooting Inherited Splunk Stacks
+    url: https://conf.splunk.com/files/2022/slides/PLA1721C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1721C_1080.mp4
+  - title: Turn On the Beats With Splunk® Dashboard Studio – Batch Execution Analysis and Tracking System (BEATS) At Coles
+    url: https://conf.splunk.com/files/2022/slides/DEV1434B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/DEV1434B_1080.mp4
+  - title: Understanding the Latest Ransomware Threats To Protect Your Organization
+    url: https://conf.splunk.com/files/2022/slides/SEC1514B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1514B_1080.mp4
+  - title: Unleash Power of Splunk To Improve Your AWS Security
+    url: https://conf.splunk.com/files/2022/slides/SEC1712B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1712B_1080.mp4
+  - title: Unlocking the Limitless Potential of SPL2™ and Multi-Statement Searches
+    url: https://conf.splunk.com/files/2022/slides/PLA1579A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1579A_1080.mp4
+  - title: Unlock the Full Value of Detections Through Normalization With Splunk
+    url: https://conf.splunk.com/files/2022/slides/SEC1559B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1559B_1080.mp4
+  - title: Using CI/CD To Keep Up With the Demands of an Ever Changing Splunk Environment
+    url: https://conf.splunk.com/files/2022/slides/DEV1120B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/DEV1120B_1080.mp4
+  - title: Using Splunk® Infrastructure Monitoring for Database Infrastructure (With Focus on Oracle® DB Observability)
+    url: https://conf.splunk.com/files/2022/slides/OBS1645C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1645C_1080.mp4
+  - title: What Is Observability?
+    url: https://conf.splunk.com/files/2022/slides/OBS1641C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/OBS1641C_1080.mp4
+  - title: What's a 5-Letter Word for How to Solve Wordle with Splunk? Regex!
+    url: https://conf.splunk.com/files/2022/slides/COM1155B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/COM1155B_1080.mp4
+  - title: What’s New with Splunk® Cloud and Enterprise Platform 9.0
+    url: https://conf.splunk.com/files/2022/slides/PLA1202A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1202A_1080.mp4
+  - title: Why I Would Like to Move to New Zealand: Splunking Gender Equality Data
+    url: https://conf.splunk.com/files/2022/slides/COM1618B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/COM1618B_1080.mp4
+  - title: Women in Cyber: Getting on THE LIST
+    url: https://conf.splunk.com/files/2022/slides/COM1531B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/COM1531B_1080.mp4
+  - title: Workday: Providing Data and Vision to the Security Community
+    url: https://conf.splunk.com/files/2022/slides/SEC1652A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1652A_1080.mp4
+  - title: Working Remote Can Be a Pain in the Access: Solving Progressive’s VPN Connectivity Issues
+    url: https://conf.splunk.com/files/2022/slides/PLA1499B.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1499B_1080.mp4
+  - title: Workload &amp;amp; Infrastructure Licensing Behaviors for Your Success: Evolved Approaches to Managing Splunk
+    url: https://conf.splunk.com/files/2022/slides/PLA1117C.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/PLA1117C_1080.mp4
+  - title: You Can't Trust This: A 2Legit Guide to Zero Trust
+    url: https://conf.splunk.com/files/2022/slides/SEC1672A.pdf
+    recording: https://conf.splunk.com/files/2022/recordings/SEC1672A_1080.mp4
 
 - year: 2023
   slides: 
-  - title: Using PrivateLink for Splunk Cloud Platform
+  - title: 12 Angry Analysts: Tuning Splunk® SOAR Events To Keep Your Analysts Happy (Or at Least Content)
+    url: https://conf.splunk.com/files/2023/slides/SEC1406C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1406C.mp4
+  - title: 30 SPL™ Commands in 30 Minutes
+    url: https://conf.splunk.com/files/2023/slides/PLA1240B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1240B.mp4
+  - title: 72 Hours of Incident Response
+    url: https://conf.splunk.com/files/2023/slides/SEC1455C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1455C.mp4
+  - title: A Beginner’s Guide to SOAR: Automate 5 Basic Security Processes in Under 30 Minutes
+    url: https://conf.splunk.com/files/2023/slides/SEC1304C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1304C.mp4
+  - title: A Beginner’s Guide to Splunk® Mission Control: Houston, We Don’t Have a Problem
+    url: https://conf.splunk.com/files/2023/slides/SEC1310A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1310A.mp4
+  - title: Accelerate Investigations With Intelligence Management
+    url: https://conf.splunk.com/files/2023/slides/SEC1507C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1507C.mp4
+  - title: Accelerate Observability of the Database Foundations Underpinning Your Application Architectures
+    url: https://conf.splunk.com/files/2023/slides/OBS1801B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1801B.mp4
+  - title: Accelerate Productivity with a Personalized Home Page
+    url: https://conf.splunk.com/files/2023/slides/PLA1392C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1392C.mp4
+  - title: Accelerate the Value of Your Data Using Splunk® Cloud Platform’s New Data Processing Features
+    url: https://conf.splunk.com/files/2023/slides/PLA1962A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1962A.mp4
+  - title: Accelerate Your Data Value with DMX New Data Processing Capability - Splunk® Ingest Processor
+    url: https://conf.splunk.com/files/2023/slides/PLA1880B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1880B.mp4
+  - title: Accelerate Your Reach To Get Insights From Hybrid World and Across Compliance Boundaries With Splunk Federated Search
+    url: https://conf.splunk.com/files/2023/slides/PLA1718C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1718C.mp4
+  - title: Accenture’s Splunk Health Check: Holistic Approach for Assessing the Platform and Planning for the Future
+    url: https://conf.splunk.com/files/2023/slides/PLA1916.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1916.mp4
+  - title: Achieve Next Level Resilience with Splunk® Cloud Platform Cross-Region Disaster Recovery
+    url: https://conf.splunk.com/files/2023/slides/PLA1414B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1414B.mp4
+  - title: Achieving PEAK Performance: Introducing the PEAK Threat Hunting Framework
+    url: https://conf.splunk.com/files/2023/slides/SEC1492B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1492B.mp4
+  - title: A Comprehensive Guide to the Latest Splunk Security Innovations
+    url: https://conf.splunk.com/files/2023/slides/SEC1467B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1467B.mp4
+  - title: A Criminal, Victim View of Phishing and What You Can Do to Defeat Phishing
+    url: https://conf.splunk.com/files/2023/slides/SEC1742A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1742A.mp4
+  - title: Adaptive AI Thresholding of Machine Data for Industrial Manufacturing of Jets and Helicopters
+    url: https://conf.splunk.com/files/2023/slides/PLA1784C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1784C.mp4
+  - title: A Data-Driven Digital Bank Journey
+    url: https://conf.splunk.com/files/2023/slides/PLA1377A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1377A.mp4
+  - title: A Day in the Life of a Developer With Splunk® Observability Cloud
+    url: https://conf.splunk.com/files/2023/slides/OBS1925B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1925B.mp4
+  - title: Admin Console: A Single, Unified Interface for All Your Cloud Admin Needs
+    url: https://conf.splunk.com/files/2023/slides/PLA1671C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1671C.mp4
+  - title: Administrators Anonymous Deep Dive: Hands-on with the Splunk Deployment Server
+    url: https://conf.splunk.com/files/2023/slides/PLA1310C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1310C.mp4
+  - title: Administrators Anonymous: Interactive Splunk Therapy Session With Splunk Trust Experts
+    url: https://conf.splunk.com/files/2023/slides/PLA1347C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1347C.mp4
+  - title: Administrators Anonymous IV: Splunk Best Practices and Useful Tricks I Learned the Hard Way
+    url: https://conf.splunk.com/files/2023/slides/PLA1135B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1135B.mp4
+  - title: Administrators Anonymous VI: Splunk Best Practices and Useful Tricks I Learned the Hard Way
+    url: https://conf.splunk.com/files/2023/slides/PLA1244C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1244C.mp4
+  - title: Adopting OpenTelemetry at Yahoo: The Good, The Bad and The Ugly
+    url: https://conf.splunk.com/files/2023/slides/OBS1875C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1875C.mp4
+  - title: AI in the Fast Lane: Accelerating AI with Splunk
+    url: https://conf.splunk.com/files/2023/slides/PLA1706B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1706B.mp4
+  - title: AI, ML.....I Call BS : The ‘Risky’ Reality of Machine Learning for Security Threat Detection
+    url: https://conf.splunk.com/files/2023/slides/SEC1209C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1209C.mp4
+  - title: A | in a Cube
+    url: https://conf.splunk.com/files/2023/slides/OBS1276C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1276C.mp4
+  - title: AIOps: The Way to Zero Touch Operations
+    url: https://conf.splunk.com/files/2023/slides/OBS1610B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1610B.mp4
+  - title: AIOps Use Cases With Splunk. No Bullsh… Just IT!
+    url: https://conf.splunk.com/files/2023/slides/OBS1299C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1299C.mp4
+  - title: AI-Powered Anomaly Detection: Spotting Anomalies in Real-Time
+    url: https://conf.splunk.com/files/2023/slides/PLA1541C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1541C.mp4
+  - title: A Little Help With Splunk Configuration
+    url: https://conf.splunk.com/files/2023/slides/PLA1399B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1399B.mp4
+  - title: A Little Help With Splunk Configuration
+    url: https://conf.splunk.com/files/2023/slides/PLA1459B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1459B.mp4
+  - title: All in on Climate: Using Data To Drive Climate Solutions and Reduce Emissions in the Race to Net-zero
+    url: https://conf.splunk.com/files/2023/slides/COM1468A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/COM1468A.mp4
+  - title: Amplify Your Cloud Resilience and Protect Against a Region Disaster
+    url: https://conf.splunk.com/files/2023/slides/PLA1682B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1682B.mp4
+  - title: Analysis and Reversing: Analyzing Attacks with Splunk and Splunk® Attack Analyzer
+    url: https://conf.splunk.com/files/2023/slides/SEC1185B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1185B.mp4
+  - title: Analytic Stories and RBA: Converting Those Notables From NM to OMG!
+    url: https://conf.splunk.com/files/2023/slides/SEC1402A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1402A.mp4
+  - title: Anomaly Detection So Easy, Your Grandma Could Do It - No ML Degree Required
+    url: https://conf.splunk.com/files/2023/slides/PLA1149C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1149C.mp4
+  - title: A Quick And Scalable Way to Consolidate Alerts and Reduce Noise With ITSI and Event Analytics
+    url: https://conf.splunk.com/files/2023/slides/OBS1485B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1485B.mp4
+  - title: Are You Good, Better, or the Best? DEM-onstrating the Value of Digital Experience Monitoring To Help Your Users and Your Business
+    url: https://conf.splunk.com/files/2023/slides/OBS1781B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1781B.mp4
+  - title: A Threat-Based Approach to Extracting the Measurable Value of Your Security Data Sources
+    url: https://conf.splunk.com/files/2023/slides/SEC1729C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1729C.mp4
+  - title: Attack of the Sub-techniques in Financial Security: Mastering Security Gaps with MITRE ATT&amp;amp;CK®
+    url: https://conf.splunk.com/files/2023/slides/SEC1835B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1835B.mp4
+  - title: Automated Data Pipeline for Containerized Ingest Service of Data Into Splunk From Ring Data Lake in AWS
+    url: https://conf.splunk.com/files/2023/slides/PLA1361B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1361B.mp4
+  - title: Automate Log Onboarding With Splunk!
+    url: https://conf.splunk.com/files/2023/slides/PLA1107B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1107B.mp4
+  - title: Automate Log Onboarding With Splunk® Enterprise! The One Year Update
+    url: https://conf.splunk.com/files/2023/slides/PLA1238C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1238C.mp4
+  - title: Automate Mission Critical Medical Benefits and Payments Process Monitoring
+    url: https://conf.splunk.com/files/2023/slides/PLA1350B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1350B.mp4
+  - title: Automation Games
+    url: https://conf.splunk.com/files/2023/slides/SEC1349B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1349B.mp4
+  - title: Avoiding the Dreaded “We’ve Onboarded All Our Data, Now What?”
+    url: https://conf.splunk.com/files/2023/slides/PLA1152B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1152B.mp4
+  - title: Beat the Fatigue: Defend Against MFA Attack Techniques With Splunk® Enterprise
+    url: https://conf.splunk.com/files/2023/slides/SEC1614A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1614A.mp4
+  - title: Beginner Workshop: Simplify Your Enterprise Operation Workflows With AI and Machine Learning
+    url: https://conf.splunk.com/files/2023/slides/PLA1790B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1790B.mp4
+  - title: Easily Extend Splunk® Enterprise Security With Custom Machine Learning Models and Algorithms for the Highest Fidelity Incident Detection
+    url: https://conf.splunk.com/files/2023/slides/SEC2001C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC2001C.mp4
+  - title: Efficient Profiling of Monolithic Services Using Splunk’s Unique Endpoint-based Flame Graphs
+    url: https://conf.splunk.com/files/2023/slides/OBS1770B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1770B.mp4
+  - title: Elevate Your Data Security in AWS Using PrivateLink for Splunk® Cloud Platform
     url: https://conf.splunk.com/files/2023/slides/PLA1242B.pdf
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1242B.mp4
+  - title: Elevate Your Splunk® Cloud CI/CD Pipeline Using GitHub and Ansible @Mercedes-Benz Tech Innovation
+    url: https://conf.splunk.com/files/2023/slides/DEV1569C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/DEV1569C.mp4
+  - title: Enhancing Security and Efficiency: JPMC's Vulnerability Management Transformation With Splunk® SOAR
+    url: https://conf.splunk.com/files/2023/slides/SEC1868A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1868A.mp4
+  - title: Enhancing Security in Google Cloud With Splunk Products
+    url: https://conf.splunk.com/files/2023/slides/PLA1831B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1831B.mp4
+  - title: Enhancing Your K8s® Cluster Resilience With Splunk® Cloud Platform, Google® Kubernetes Engine (GKE) Autopilot and OpenTelemetry™
+    url: https://conf.splunk.com/files/2023/slides/PLA1838B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1838B.mp4
+  - title: Expand Your Data Universe to the Edge: A Supply Chain Saga
+    url: https://conf.splunk.com/files/2023/slides/PLA1186A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1186A.mp4
+  - title: Extend Splunk® Cloud and Splunk® Enterprise With Observability Cloud Within Minutes!
+    url: https://conf.splunk.com/files/2023/slides/OBS1829A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1829A.mp4
+  - title: Extend Your Operational Insights With Advanced Machine Learning
+    url: https://conf.splunk.com/files/2023/slides/PLA1387B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1387B.mp4
+  - title: Factoring in SSO Integration: Setting up SAML in Your Splunk Environment
+    url: https://conf.splunk.com/files/2023/slides/PLA1945B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1945B.mp4
+  - title: Faster Service Decomposition, Faster Time To Value in a Sandbox? Let’s Play.
+    url: https://conf.splunk.com/files/2023/slides/OBS1175B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1175B.mp4
+  - title: Find the Suspicious Activity: Use Splunk® Cloud Platform To Investigate Across Cloud Stacks and in Amazon S3
+    url: https://conf.splunk.com/files/2023/slides/PLA1960B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1960B.mp4
+  - title: From Chaos to Correlation: How Splunk® IT Service Intelligence Helped Splunk’s Own Cloud Operations Team Tame Alert Storms
+    url: https://conf.splunk.com/files/2023/slides/OBS1594B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1594B.mp4
+  - title: From Cloudy to Clear: The Integration Story of Google Cloud Platform™ on Splunk® Cloud Platform
+    url: https://conf.splunk.com/files/2023/slides/PLA1929C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1929C.mp4
+  - title: From Fragmented to Federated: A Deep-dive Into Federated Search for Amazon S3 With Splunk
+    url: https://conf.splunk.com/files/2023/slides/PLA1213B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1213B.mp4
+  - title: From Splunk Noob to Data Hero: Unleashing the Power of Splunk for Fraud and Financial Crimes
+    url: https://conf.splunk.com/files/2023/slides/SEC1384C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1384C.mp4
+  - title: From Zeros to Heroes – A Journey of Whole of Service Visibility in the Healthcare Sector
+    url: https://conf.splunk.com/files/2023/slides/OBS2002C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS2002C.mp4
+  - title: From Zero to Hero: How Splunk® Enterprise Can Turn Your Vulnerability Management From Reactive to Proactive
+    url: https://conf.splunk.com/files/2023/slides/SEC2006A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC2006A.mp4
+  - title: From Zero to “SOAR up”! (A Real-Life Scenario Implementing Splunk® Soar)
+    url: https://conf.splunk.com/files/2023/slides/SEC1205B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1205B.mp4
+  - title: Gaze Into the Future With Splunk® Augmented Reality
+    url: https://conf.splunk.com/files/2023/slides/PLA1350B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1350B.mp4
+  - title: GDI with Data Management Experience (DMX) - Ingesting, Processing, Filtering, Masking, Routing and Managing Your Data
+    url: https://conf.splunk.com/files/2023/slides/PLA2018A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA2018A.mp4
+  - title: Get Hands-on With Splunk® Enterprise Security
+    url: https://conf.splunk.com/files/2023/slides/SEC1979B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1979B.mp4
+  - title: Getting Data In (GDI) Master Class: Discover the Anatomy of Indexing Data
+    url: https://conf.splunk.com/files/2023/slides/PLA2003B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA2003B.mp4
+  - title: Getting Data in More Efficiently Using the Splunk® Edge Processor
+    url: https://conf.splunk.com/files/2023/slides/PLA1870A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1870A.mp4
+  - title: Getting Smarter About Splunk® SmartStore: Best Practices or Bust
+    url: https://conf.splunk.com/files/2023/slides/PLA1335B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1335B.mp4
+  - title: Getting the Most Out of Splunk® Enterprise, OCSF, and Amazon Security Lake
+    url: https://conf.splunk.com/files/2023/slides/SEC1744B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1744B.mp4
+  - title: Git Good With Splunk: Commit to Config Versioning and Deployment Automation for Your Splunk Infrastructure
+    url: https://conf.splunk.com/files/2023/slides/PLA1765C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1765C.mp4
+  - title: Gloves Off/Hands On: Threat Simulation and Detection Engineering With Splunk® Enterprise Security - Part 1
+    url: https://conf.splunk.com/files/2023/slides/SEC1147B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1147B.mp4
+  - title: Gloves Off/Hands On: Threat Simulation and Detection Engineering With Splunk - Part 2
+    url: https://conf.splunk.com/files/2023/slides/SEC1228B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1228B.mp4
+  - title: Going Beyond Logs: How Splunk Customers Embraced Observability
+    url: https://conf.splunk.com/files/2023/slides/OBS1313B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1313B.mp4
+  - title: Got Apps? Will Migrate to Cloud - SCMA to the Rescue
+    url: https://conf.splunk.com/files/2023/slides/PLA1105B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1105B.mp4
+  - title: Hands on With Data Tiering in Splunk® Cloud Platform
+    url: https://conf.splunk.com/files/2023/slides/PLA1750B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1750B.mp4
+  - title: Happy Together: Combining Splunk® Cloud Platform and Splunk® Observability Cloud to Troubleshoot Faster
+    url: https://conf.splunk.com/files/2023/slides/OBS1503B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1503B.mp4
+  - title: Hello, World! Building Your First App for Splunk Enterprise Using SPL2™
+    url: https://conf.splunk.com/files/2023/slides/DEV1433A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/DEV1433A.mp4
+  - title: HIGHLANDER: Why There Can Be Only One SIEM
+    url: https://conf.splunk.com/files/2023/slides/SEC1725C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1725C.mp4
+  - title: How Bank of England SOAR’D Its Way To Enhanced Monitoring
+    url: https://conf.splunk.com/files/2023/slides/SEC1735C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1735C.mp4
+  - title: How Centers for Disease Control (CDC) Leverages the Power of OMB M-21-31 for More Than Just Compliance
+    url: https://conf.splunk.com/files/2023/slides/SEC1817B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1817B.mp4
+  - title: How NTT DOCOMO, Japan's Largest Telecom Company, Rapidly Detects and Responds to Complex Fraud/Cyber-attacks With Advanced Security Platform
+    url: https://conf.splunk.com/files/2023/slides/SEC1988C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1988C.mp4
+  - title: How OpenTelemetry™ and Splunk® Observability Cloud Help Solve Top 3 Java Performance Problems in No Time!
+    url: https://conf.splunk.com/files/2023/slides/OBS1927B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1927B.mp4
+  - title: How To Be Faster Than the Rest Using a Hybrid Splunk® Cloud Platform Deployment
+    url: https://conf.splunk.com/files/2023/slides/PLA1620B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1620B.mp4
+  - title: How to Rock Your Resilient Splunk Community and Get Noticed - Brought to You by 2 Ole Pros
+    url: https://conf.splunk.com/files/2023/slides/PLA1625B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1625B.mp4
+  - title: How To Use Distributed Tracing To Find the Biggest Customer-facing Errors and Slowness
+    url: https://conf.splunk.com/files/2023/slides/OBS1921B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1921B.mp4
+  - title: How We Protect You: How We Use Splunk Products at Splunk
+    url: https://conf.splunk.com/files/2023/slides/SEC1646B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1646B.mp4
+  - title: How We Supercharged SPL™ With Custom Commands to Create an API Integration Framework
+    url: https://conf.splunk.com/files/2023/slides/DEV1493C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/DEV1493C.mp4
+  - title: Hungry? We’ve Got This. Bringing Our SOC in House To Keep Our People Happy, Our Systems Secure and Let You Skip the Dishes, Get a Takeaway &amp;amp; Just Eat
+    url: https://conf.splunk.com/files/2023/slides/SEC1460A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1460A.mp4
+  - title: I Am Speed! Searching on Your Own TERMs With Simple Techniques That 99Aren’t Using!url: https://conf.splunk.com/files/2023/slides/PLA1258C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1258C.mp4
+  - title: If You Give an Adversary a Cookie...
+    url: https://conf.splunk.com/files/2023/slides/SEC1747B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1747B.mp4
+  - title: Implementing Splunk® SOAR Based on Your Maturity Level
+    url: https://conf.splunk.com/files/2023/slides/SEC1351B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1351B.mp4
+  - title: Integrating AWS CloudWatch Metric Streams With Splunk® Observability Cloud: How and Why
+    url: https://conf.splunk.com/files/2023/slides/OBS1281B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1281B.mp4
+  - title: Integrating Splunk Products With CHATGPT: Revolutionizing Data Analytics With AI-powered Conversational Intelligence While Safeguarding Security and Privacy
+    url: https://conf.splunk.com/files/2023/slides/DEV1813C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/DEV1813C.mp4
+  - title: Introduction to Splunk® Attack Analyzer
+    url: https://conf.splunk.com/files/2023/slides/SEC1412A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1412A.mp4
+  - title: Journey to a Successful Cloud Adoption With Workload Pricing
+    url: https://conf.splunk.com/files/2023/slides/PLA1828B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1828B.mp4
+  - title: Keep Your Deployment Secure With Splunk® Assist
+    url: https://conf.splunk.com/files/2023/slides/PLA1410B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1410B.mp4
+  - title: Lesser Known Search Commands Part 1
+    url: https://conf.splunk.com/files/2023/slides/PLA1159C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1159C.mp4
+  - title: Lessons on Fixing Splunk® Enterprise From Cloud Migration Experts
+    url: https://conf.splunk.com/files/2023/slides/PLA1890B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1890B.mp4
+  - title: Level up the Health of Your Splunk Platform by Solving Real-Time Problems With Our New Admin Monitoring Tools
+    url: https://conf.splunk.com/files/2023/slides/PLA1628C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1628C.mp4
+  - title: Level Up to SOC 2.0: How Splunk’s Security Maturity Framework Helps To Secure Organizations Through a Converged Cyber Fusion Approach
+    url: https://conf.splunk.com/files/2023/slides/SEC1601B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1601B.mp4
+  - title: Level up Your Response Actions: Hands-on Building Splunk® SOAR Apps Using the Splunk® SOAR App Wizard
+    url: https://conf.splunk.com/files/2023/slides/SEC1332C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1332C.mp4
+  - title: Leveraging Splunk Machine Learning for Web Application Attacks
+    url: https://conf.splunk.com/files/2023/slides/SEC1571C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1571C.mp4
+  - title: Lighter, Faster and Calmer Ways to Learn Splunk® Enterprise With | makeresults, | gentimes and Some Random()Too!url: https://conf.splunk.com/files/2023/slides/PLA1547B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1547B.mp4
+  - title: Living on the Edge (Processor): Advanced Data Preparation With SPL2™
+    url: https://conf.splunk.com/files/2023/slides/PLA1430A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1430A.mp4
+  - title: Making Friends With Threat Object: Automation, Tuning, and Threat Hunting With Risk-Based Alerting
+    url: https://conf.splunk.com/files/2023/slides/SEC1215B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1215B.mp4
+  - title: Making Your Observability Cloud Native With OpenTelemetry™
+    url: https://conf.splunk.com/files/2023/slides/OBS1768B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1768B.mp4
+  - title: Mastering Security Automation: Accelerating Incident Response With Splunk® SOAR and Splunk® Mission Control
+    url: https://conf.splunk.com/files/2023/slides/SEC1226B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1226B.mp4
+  - title: Maximize Your Splunk Value With Workload Management
+    url: https://conf.splunk.com/files/2023/slides/PLA1265B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1265B.mp4
+  - title: Maximizing Splunk SPL™: Foreach and the Power of Iterative, Templatized Evals
+    url: https://conf.splunk.com/files/2023/slides/PLA1881C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1881C.mp4
+  - title: Maximizing the Value of Federated Search Across Multiple Splunk Environments
+    url: https://conf.splunk.com/files/2023/slides/PLA1468B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1468B.mp4
+  - title: Mind the Gap: Architecture Considerations for Using Data Diodes With Splunk Components in Air-Gapped Networks
+    url: https://conf.splunk.com/files/2023/slides/PLA1993C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1993C.mp4
+  - title: Monitoring Your Kubernetes® Infrastructure With Splunk® Observability Cloud
+    url: https://conf.splunk.com/files/2023/slides/OBS1523B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1523B.mp4
+  - title: Multi-Cloud Madness: Keep it Simple!
+    url: https://conf.splunk.com/files/2023/slides/PLA1851B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1851B.mp4
+  - title: NSOC for Your OT &amp;amp; IT Government Services
+    url: https://conf.splunk.com/files/2023/slides/OBS1397C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1397C.mp4
+  - title: Observability as a Foundation for Resilience - Building Your Observability Center of Excellence
+    url: https://conf.splunk.com/files/2023/slides/OBS1836C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1836C.mp4
+  - title: Observability Best Practices for Data-driven SLOs
+    url: https://conf.splunk.com/files/2023/slides/OBS1418B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1418B.mp4
+  - title: Observability: The New Way to Monitor Your IT Systems
+    url: https://conf.splunk.com/files/2023/slides/OBS1780C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1780C.mp4
+  - title: OMB to OMG: M-21-31 for Everyone With Integrated ITOps and IT Security Dashboards
+    url: https://conf.splunk.com/files/2023/slides/PLA1997C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1997C.mp4
+  - title: One Login Fits All: Simplifying User and Data Management With a Unified Identity Experience Across Splunk
+    url: https://conf.splunk.com/files/2023/slides/OBS1476B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1476B.mp4
+  - title: One to Zero: Tired of Setting up Agents and Instrumentation? Get Splunk Observability® Cloud and OpenTelemetry™ Data Collection Running Automatically!
+    url: https://conf.splunk.com/files/2023/slides/OBS1952B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1952B.mp4
+  - title: Open up Those Laptops, and Let’s Dive Into Building a Splunk App in Real-time!
+    url: https://conf.splunk.com/files/2023/slides/DEV1091B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/DEV1091B.mp4
+  - title: Our Journey in Building a Dedicated Threat Detection and Automation Program at Mastercard
+    url: https://conf.splunk.com/files/2023/slides/SEC1966A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1966A.mp4
+  - title: Perfecting Perfmon and Other Metrics
+    url: https://conf.splunk.com/files/2023/slides/PLA1163C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1163C.mp4
+  - title: Phishing Investigation Using Splunk® Attack Analyzer and Splunk® SOAR
+    url: https://conf.splunk.com/files/2023/slides/SEC1352A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1352A.mp4
+  - title: Put Your Customers First - Integrate Digital Experience Monitoring (DEM) Into Your Observability Practice
+    url: https://conf.splunk.com/files/2023/slides/OBS1438B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1438B.mp4
+  - title: RAMPing up to Cloud Nine: Migrating to a Federal Cloud (or Hybrid!) Environment
+    url: https://conf.splunk.com/files/2023/slides/PLA1990B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1990B.mp4
+  - title: Reach Liftoff With Splunk® Mission Control
+    url: https://conf.splunk.com/files/2023/slides/SEC1312A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1312A.mp4
+  - title: Reduce Time to Value With Pre-Built SecOps Content
+    url: https://conf.splunk.com/files/2023/slides/SEC1467B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1467B.mp4
+  - title: Regain Control of Your Config: Managing Conf Files in Splunk® Cloud Platform Using Rest API
+    url: https://conf.splunk.com/files/2023/slides/PLA1261C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1261C.mp4
+  - title: Regex in Your SPL™ — The Workshop
+    url: https://conf.splunk.com/files/2023/slides/PLA1687C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1687C.mp4
+  - title: Reimagine Observability Data &amp;amp; Shine a Spotlight on Your Data Centers’  CO₂ Emissions
+    url: https://conf.splunk.com/files/2023/slides/OBS1726C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1726C.mp4
+  - title: Reinvent SAP® Resilience With SoftwareONE’s PowerConnect and Splunk: Customers’ Perspective
+    url: https://conf.splunk.com/files/2023/slides/OBS1218C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1218C.mp4
+  - title: Rock Em' SOC Em': Arming Security Analysts to Defeat Adversaries by Hunting for Threats with Sigma Rules
+    url: https://conf.splunk.com/files/2023/slides/SEC1633C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1633C.mp4
+  - title: SAP Resilience - Revolutionizing SAP Observability, Security and Business Service Insights. How the Splunk Platform is Changing the Game for SAP On-Prem, Cloud and SAAS Solutions
+    url: https://conf.splunk.com/files/2023/slides/PLA1655C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1655C.mp4
+  - title: Scale Observability With Splunk® Observability Cloud Metrics Platform
+    url: https://conf.splunk.com/files/2023/slides/OBS1522B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1522B.mp4
+  - title: Securing the Cloudscape: Resilient Multi-Cloud Detection Engineering
+    url: https://conf.splunk.com/files/2023/slides/SEC1225B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1225B.mp4
+  - title: Setting the Bar for Hyper Scale: Running Splunk on Kubernetes With High Availability, Scalability and No Up-front Hardware Cost
+    url: https://conf.splunk.com/files/2023/slides/PLA1191C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1191C.mp4
+  - title: Simplify Data Ingestion and Monitoring of AWS Data Sources in Splunk® Cloud Platform
+    url: https://conf.splunk.com/files/2023/slides/PLA1478B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1478B.mp4
+  - title: Simplify Your Enterprise Operation Workflows With Machine Learning
+    url: https://conf.splunk.com/files/2023/slides/PLA1386B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1386B.mp4
+  - title: SOARing Efficiently: Identifying Efficiency Opportunities From Your SOAR Data
+    url: https://conf.splunk.com/files/2023/slides/SEC1561C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1561C.mp4
+  - title: Soaring Towards IT Excellence - Using Splunk® SOAR and Splunk® ITSI to Deliver a More Resilient Cloud
+    url: https://conf.splunk.com/files/2023/slides/OBS1425B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1425B.mp4
+  - title: SPL™ for ALL THE THINGS!!! (But Here's How to Learn About Your Dataset First)
+    url: https://conf.splunk.com/files/2023/slides/PLA1161C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1161C.mp4
+  - title: Splunk® Cloud Platform and Splunk® Observability Cloud: A Match Made in Tech Heaven
+    url: https://conf.splunk.com/files/2023/slides/PLA1511A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1511A.mp4
+  - title: Splunk® Dashboard Studio for Beginners and Non-Designers
+    url: https://conf.splunk.com/files/2023/slides/PLA1517B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1517B.mp4
+  - title: Splunk® Dashboard Studio for Experts and Advanced Users
+    url: https://conf.splunk.com/files/2023/slides/PLA1924B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1924B.mp4
+  - title: Splunk® Dashboard Studio: Rebuild From Classic (SimpleXML) With the Latest Dashboard Studio Features
+    url: https://conf.splunk.com/files/2023/slides/PLA1516B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1516B.mp4
+  - title: Splunk® Enterprise in Microsoft Azure, It Works!
+    url: https://conf.splunk.com/files/2023/slides/PLA1278C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1278C.mp4
+  - title: Splunk® Enterprise Security Warrior Resilience Training Camp
+    url: https://conf.splunk.com/files/2023/slides/SEC1705B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1705B.mp4
+  - title: Splunk® Ingest Actions and Rulesets: Advanced Pipeline Configurations
+    url: https://conf.splunk.com/files/2023/slides/PLA1641B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1641B.mp4
+  - title: Splunking the Endpoint VII: Endpoints Are Forever
+    url: https://conf.splunk.com/files/2023/slides/SEC1666B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1666B.mp4
+  - title: Splunk® IT Service Intelligence (ITSI) - The Latest and Greatest From New Releases!
+    url: https://conf.splunk.com/files/2023/slides/OBS1236B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1236B.mp4
+  - title: Splunk® Machine Learning for Security: Good Machine Learning for Bad Behavior
+    url: https://conf.splunk.com/files/2023/slides/SEC1971B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1971B.mp4
+  - title: Splunk Upgrade Essentials!
+    url: https://conf.splunk.com/files/2023/slides/PLA1573A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1573A.mp4
+  - title: Study Club for Splunk Is Back! Get Your Swag on in This Interactive Expedition. Activate and Energize Your Splunk Journey and Capabilities!
+    url: https://conf.splunk.com/files/2023/slides/PLA1256C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1256C.mp4
+  - title: Take the Guesswork Out of Your Day With Splunk® RUM Session Replay
+    url: https://conf.splunk.com/files/2023/slides/OBS1796B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1796B.mp4
+  - title: Taking Command of Metadata With Splunk® Custom Commands
+    url: https://conf.splunk.com/files/2023/slides/PLA1464C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1464C.mp4
+  - title: Tales from SURGe: Log4Shell, Ransomware Bribes, Geneva, and More..
+    url: https://conf.splunk.com/files/2023/slides/SEC1871B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1871B.mp4
+  - title: Taming Your SVC Hoggers With the Chargeback App
+    url: https://conf.splunk.com/files/2023/slides/PLA1298B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1298B.mp4
+  - title: Testing Behind the Firewalls - A Synthetics Deep Dive Session
+    url: https://conf.splunk.com/files/2023/slides/OBS1709B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1709B.mp4
+  - title: The Beginner’s Guide to Security Monitoring for Enterprises
+    url: https://conf.splunk.com/files/2023/slides/SEC1778B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1778B.mp4
+  - title: The Definitive List of Best Practices for Splunk® IT Service Intelligence: How to Configure, Administer, and Use ITSI for Optimal Results
+    url: https://conf.splunk.com/files/2023/slides/OBS1788B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1788B.mp4
+  - title: The regeX-Games
+    url: https://conf.splunk.com/files/2023/slides/PLA1693B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1693B.mp4
+  - title: There's No Place Like Chrome...and the Splunk Platform! Protecting Your Organization's Browser Footprint
+    url: https://conf.splunk.com/files/2023/slides/SEC1634C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1634C.mp4
+  - title: The Success Story of Full Observability Without Data Sampling: How Indonesia’s Biggest Fintech Unleashed the Power of End to End Observability
+    url: https://conf.splunk.com/files/2023/slides/OBS1389C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1389C.mp4
+  - title: Threat Hunting Across Data Lakes
+    url: https://conf.splunk.com/files/2023/slides/SEC1348B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1348B.mp4
+  - title: TLS of the SSLippery Slope: The .key to Your Splunk Connections
+    url: https://conf.splunk.com/files/2023/slides/SEC1936B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1936B.mp4
+  - title: Tools of the Trade: Advancing App Development for Splunk® SOAR
+    url: https://conf.splunk.com/files/2023/slides/SEC1592C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1592C.mp4
+  - title: Troubleshooting Splunk Data Sources: Tips and Tricks for Evergreen SOC Visibility
+    url: https://conf.splunk.com/files/2023/slides/SEC2012C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC2012C.mp4
+  - title: Unleashing the Power of UBA: What's New and What's Next
+    url: https://conf.splunk.com/files/2023/slides/SEC1691B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1691B.mp4
+  - title: Unlock Your Admin Productivity With the Power of Our New and Improved Admin Monitoring Tools
+    url: https://conf.splunk.com/files/2023/slides/PLA1595B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1595B.mp4
+  - title: Using Automation and Splunk to Support SOC2 in AWS
+    url: https://conf.splunk.com/files/2023/slides/SEC1869A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1869A.mp4
+  - title: Using OpenTelemetry™ for Logs Collection - The Future Is Now
+    url: https://conf.splunk.com/files/2023/slides/OBS1562B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1562B.mp4
+  - title: Using Splunk® Cloud Platform ACS Through CI/CD
+    url: https://conf.splunk.com/files/2023/slides/DEV1480C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/DEV1480C.mp4
+  - title: Using Splunk for Hybrid Cloud Infrastructure Monitoring
+    url: https://conf.splunk.com/files/2023/slides/OBS1643B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/OBS1643B.mp4
+  - title: Using Workflow Actions To Make Your Events More… Eventful
+    url: https://conf.splunk.com/files/2023/slides/PLA1600B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1600B.mp4
+  - title: Visualizing Wealth and Lifespan in the Caribbean Islands
+    url: https://conf.splunk.com/files/2023/slides/PLA1431C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1431C.mp4
+  - title: Vulnerability Tranquility - Navigate the Seas of Vulnerability Management Using Splunk’s Unified Security Operations!
+    url: https://conf.splunk.com/files/2023/slides/SEC1668B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1668B.mp4
+  - title: Wait What?! Still Using Spreadsheets for Your KPIs? LEVEL UP With Splunk Automation!
+    url: https://conf.splunk.com/files/2023/slides/SEC1474C.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/SEC1474C.mp4
+  - title: What's New with Splunk® Cloud Platform and Splunk® Enterprise 9.1
+    url: https://conf.splunk.com/files/2023/slides/PLA1241A.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/PLA1241A.mp4
+  - title: Win Friends and Influence Users, Your Splunk Builder Story
+    url: https://conf.splunk.com/files/2023/slides/DEV1896B.pdf
+    recording: https://conf.splunk.com/files/2023/recordings/DEV1896B.mp4
 
-- year: 
-  slides: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
-  - title: 
-    url: 
+- year: 2024
+  slides:
+  - title: 30 SPL™ Commands in 30 Minutes
+    url: https://conf.splunk.com/files/2024/slides/PLA1240B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1240B.mp4
+  - title: Accelerate Observability of the Database Foundations Underpinning Your Application Architectures
+    url: https://conf.splunk.com/files/2024/slides/OBS1801B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1801B.mp4
+  - title: Accelerate Productivity with a Personalized Home Page
+    url: https://conf.splunk.com/files/2024/slides/PLA1392C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1392C.mp4
+  - title: Accelerate Your Data Value with DMX New Data Processing Capability - Splunk® Ingest Processor
+    url: https://conf.splunk.com/files/2024/slides/PLA1880B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1880B.mp4
+  - title: Accenture’s Splunk Health Check: Holistic Approach for Assessing the Platform and Planning for the Future
+    url: https://conf.splunk.com/files/2024/slides/PLA1916.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1916.mp4
+  - title: Achieve Next Level Resilience with Splunk® Cloud Platform Cross-Region Disaster Recovery
+    url: https://conf.splunk.com/files/2024/slides/PLA1414B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1414B.mp4
+  - title: A Comprehensive Guide to the Latest Splunk Security Innovations
+    url: https://conf.splunk.com/files/2024/slides/SEC1467B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1467B.mp4
+  - title: Adaptive AI Thresholding of Machine Data for Industrial Manufacturing of Jets and Helicopters
+    url: https://conf.splunk.com/files/2024/slides/PLA1784C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1784C.mp4
+  - title: Administrators Anonymous Deep Dive: Hands-on with the Splunk Deployment Server
+    url: https://conf.splunk.com/files/2024/slides/PLA1310C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1310C.mp4
+  - title: Administrators Anonymous VI: Splunk Best Practices and Useful Tricks I Learned the Hard Way
+    url: https://conf.splunk.com/files/2024/slides/PLA1244C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1244C.mp4
+  - title: Adopting OpenTelemetry at Yahoo: The Good, The Bad and The Ugly
+    url: https://conf.splunk.com/files/2024/slides/OBS1875C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1875C.mp4
+  - title: AI in the Fast Lane: Accelerating AI with Splunk
+    url: https://conf.splunk.com/files/2024/slides/PLA1706B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1706B.mp4
+  - title: AI-Powered Anomaly Detection: Spotting Anomalies in Real-Time
+    url: https://conf.splunk.com/files/2024/slides/PLA1541C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1541C.mp4
+  - title: A Little Help With Splunk Configuration
+    url: https://conf.splunk.com/files/2024/slides/PLA1459B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1459B.mp4
+  - title: Analysis and Reversing: Analyzing Attacks with Splunk and Splunk® Attack Analyzer
+    url: https://conf.splunk.com/files/2024/slides/SEC1185B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1185B.mp4
+  - title: Anomaly Detection So Easy, Your Grandma Could Do It - No ML Degree Required
+    url: https://conf.splunk.com/files/2024/slides/PLA1149C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1149C.mp4
+  - title: Attack of the Sub-techniques in Financial Security: Mastering Security Gaps with MITRE ATT&CK®
+    url: https://conf.splunk.com/files/2024/slides/SEC1835B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1835B.mp4
+  - title: Beginner Workshop: Simplify Your Enterprise Operation Workflows With AI and Machine Learning
+    url: https://conf.splunk.com/files/2024/slides/PLA1790B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1790B.mp4
+  - title: Best Practices and Better Practices for Splunk Development
+    url: https://conf.splunk.com/files/2024/slides/DEV1234B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/DEV1234B.mp4
+  - title: Be the Hacker and the Defender: Threat Simulation and Detection Engineering with Splunk
+    url: https://conf.splunk.com/files/2024/slides/SEC1710B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1710B.mp4
+  - title: Beyond Reactive Security: Next-Gen Kubernetes Threat Hunting with Splunk® SOAR and GenAI
+    url: https://conf.splunk.com/files/2024/slides/SEC1296C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1296C.mp4
+  - title: Blazing Fast Machine Learning Enabled Deep IoC Hunting with Splunk® Enterprise Security, Machine Learning Toolkit and SOAR
+    url: https://conf.splunk.com/files/2024/slides/SEC1877B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1877B.mp4
+  - title: BORE: Boss of the Regular Expressions
+    url: https://conf.splunk.com/files/2024/slides/PLA1127C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1127C.mp4
+  - title: Bridge the Gap Between SecOps Analysis Paralysis by Combining Risk Based Alerting with Financial Analysis of MITRE ATT&CK for Better Prioritization
+    url: https://conf.splunk.com/files/2024/slides/SEC1581C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1581C.mp4
+  - title: Building a SOC from Scratch with Splunk® Enterprise Security
+    url: https://conf.splunk.com/files/2024/slides/SEC1345C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1345C.mp4
+  - title: Building Intelligent Automation for End-to-End Threat Analysis with Splunk® SOAR and Splunk® Attack Analyzer
+    url: https://conf.splunk.com/files/2024/slides/SEC1382B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1382B.mp4
+  - title: Bump Up Your Splunk with Upgrader App for Splunk (UA4S)
+    url: https://conf.splunk.com/files/2024/slides/PLA1713C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1713C.mp4
+  - title: Business Risk Observability in Cisco AppDynamics® for Traditional and Hybrid Applications
+    url: https://conf.splunk.com/files/2024/slides/OBS2744.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS2744.mp4
+  - title: Can You Embed Splunk® Dashboard Studio Dashboards Outside of Splunk? Yes, You Can!
+    url: https://conf.splunk.com/files/2024/slides/DEV1757C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/DEV1757C.mp4
+  - title: Catch Phish Faster with Splunk® Attack Analyzer and Splunk® SOAR Together
+    url: https://conf.splunk.com/files/2024/slides/SEC1380B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1380B.mp4
+  - title: Centralize and Navigate Your AWS EKS Environment
+    url: https://conf.splunk.com/files/2024/slides/OBS1478B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1478B.mp4
+  - title: Cisco and Splunk Coming Together to Deliver Full-stack Observability
+    url: https://conf.splunk.com/files/2024/slides/OBS2746.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS2746.mp4
+  - title: Cisco AppDynamics Performance Monitoring for SAP® Solutions
+    url: https://conf.splunk.com/files/2024/slides/OBS2748.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS2748.mp4
+  - title: Cisco Security Cloud
+    url: https://conf.splunk.com/files/2024/slides/SEC1723C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1723C.mp4
+  - title: Clara-Fication Workshop: Understanding the Expensive Bits in Your Splunk Environment
+    url: https://conf.splunk.com/files/2024/slides/PLA1101B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1101B.mp4
+  - title: Cloud Identity Crisis: Defending Identities in an Okta Environment
+    url: https://conf.splunk.com/files/2024/slides/SEC1648B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1648B.mp4
+  - title: Contextualize This! Bringing Your Trace and Metric Content to Splunk® Cloud Platform
+    url: https://conf.splunk.com/files/2024/slides/PLA1523B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1523B.mp4
+  - title: Control Your Data, Control Your Deployment: Learn How to Process Data and Automatically Discover New Data Sources with OpenTelemetry™!
+    url: https://conf.splunk.com/files/2024/slides/OBS1558B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1558B.mp4
+  - title: Cybersecurity Science: Empowering Decisions with Intelligence-Driven Cyber Threat Intelligence (CTI)
+    url: https://conf.splunk.com/files/2024/slides/SEC1499C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1499C.mp4
+  - title: Data at the Speed of Splunk®: Performance Improvements and Optimization in Splunk
+    url: https://conf.splunk.com/files/2024/slides/PLA1227B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1227B.mp4
+  - title: Data-Driven Networks Using Cisco and Splunk®
+    url: https://conf.splunk.com/files/2024/slides/PLA1374C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1374C.mp4
+  - title: Data Pipeline Resilience: The Foundation for AI/Machine Learning (ML)
+    url: https://conf.splunk.com/files/2024/slides/PLA1445B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1445B.mp4
+  - title: Deep Learning for Compromised Account Detection Using Splunk
+    url: https://conf.splunk.com/files/2024/slides/DEV1474A.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/DEV1474A.mp4
+  - title: Definite Guide to Ingesting Syslog
+    url: https://conf.splunk.com/files/2024/slides/PLA1726B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1726B.mp4
+  - title: Developing and Testing with OpenTelemetry Data to Monitor Mission Critical Financial Software – Oh Yes, Please!
+    url: https://conf.splunk.com/files/2024/slides/OBS1250C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1250C.mp4
+  - title: Discover How Discover Discovered the Best Way to Navigate PCI 4.0 Compliance Using Custom Commands!
+    url: https://conf.splunk.com/files/2024/slides/DEV1384C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/DEV1384C.mp4
+  - title: Discover the Value of Automated Threat Analysis
+    url: https://conf.splunk.com/files/2024/slides/SEC1174B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1174B.mp4
+  - title: Dissect Your Detections: Uncovering the Anatomy of Better Security Monitoring
+    url: https://conf.splunk.com/files/2024/slides/SEC1781B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1781B.mp4
+  - title: Dive into the Future of Cybersecurity: Automating Phishing Response with Splunk® SOAR
+    url: https://conf.splunk.com/files/2024/slides/SEC1768C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1768C.mp4
+  - title: Do You Bite Your Thumb at Us, Sir? Embracing Star-Crossed Tools: Foreach and Map
+    url: https://conf.splunk.com/files/2024/slides/SEC1879C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1879C.mp4
+  - title: Dynamic and Shareable Dashboards with Splunk® Dashboard Studio
+    url: https://conf.splunk.com/files/2024/slides/PLA1247B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1247B.mp4
+  - title: Easily Extend Enterprise Security with Machine Learning — The Workshop
+    url: https://conf.splunk.com/files/2024/slides/SEC1858B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1858B.mp4
+  - title: Elevating Splunk® Enterprise Security: Harnessing the Power of Splunk® Asset and Risk Intelligence to Accelerate Investigations
+    url: https://conf.splunk.com/files/2024/slides/SEC1148A.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1148A.mp4
+  - title: Empowering SecOps with Splunk® Asset and Risk Intelligence: A New Era of Continuous Asset Discovery and Compliance
+    url: https://conf.splunk.com/files/2024/slides/SEC1145A.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1145A.mp4
+  - title: Enable the Adoption of AI Across Every Enterprise
+    url: https://conf.splunk.com/files/2024/slides/PLA1151C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1151C.mp4
+  - title: Ensure Optimal User Experiences with Digital Experience Monitoring for Three-Tier Apps
+    url: https://conf.splunk.com/files/2024/slides/OBS2747.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS2747.mp4
+  - title: Enterprise Security Biology: Dissecting the Enterprise Security Use Case Library
+    url: https://conf.splunk.com/files/2024/slides/SEC1793B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1793B.mp4
+  - title: Escaping the Avalanche: Don't Get Buried in Big Data
+    url: https://conf.splunk.com/files/2024/slides/PLA1501C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1501C.mp4
+  - title: ESter Eggs for ES: Tips and Tricks on Making Your SIEM a Solution
+    url: https://conf.splunk.com/files/2024/slides/SEC1278B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1278B.mp4
+  - title: Evolution of SPL - Meet SPL2: Accenture’s Exploration of SPL2 While Building a Real-Time Data Quality Validation App
+    url: https://conf.splunk.com/files/2024/slides/DEV1442C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/DEV1442C.mp4
+  - title: Factoring in SSO Integration: Setting up SAML in Your Splunk Environment
+    url: https://conf.splunk.com/files/2024/slides/PLA1356B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1356B.mp4
+  - title: Fight the Incident Noise and How Does Automation Help To Do That?
+    url: https://conf.splunk.com/files/2024/slides/OBS1205C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1205C.mp4
+  - title: Fortify to Dominate: Unraveling Security Mastery and Closing Gaps with MITRE ATT&CK Brilliance
+    url: https://conf.splunk.com/files/2024/slides/SEC1636B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1636B.mp4
+  - title: From Adolescence to Adulthood: The Evolution of Splunk Products in our own SOC
+    url: https://conf.splunk.com/files/2024/slides/SEC1193B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1193B.mp4
+  - title: From Configuration to Insight: How to Connect and Effectively Use Splunk® Cloud Platform and Splunk® Observability Cloud
+    url: https://conf.splunk.com/files/2024/slides/PLA1441B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1441B.mp4
+  - title: From ML Complexity to Cake: A Sweet Take on Machine Learning in Splunk® IT Service Intelligence (ITSI), With Easier Recipes Than Ever!
+    url: https://conf.splunk.com/files/2024/slides/OBS1518B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1518B.mp4
+  - title: From “Storming” to “Norming”: AI, Innovation and the Legal and Industry Standards Starting to Take Shape
+    url: https://conf.splunk.com/files/2024/slides/PLA1549C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1549C.mp4
+  - title: From Zero to Hero, From No Visibility to Observability
+    url: https://conf.splunk.com/files/2024/slides/OBS1813C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1813C.mp4
+  - title: Full-stack Visibility and Full-fidelity Tracing: Delivering Observability with APM and IM
+    url: https://conf.splunk.com/files/2024/slides/OBS1802B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1802B.mp4
+  - title: Gaining Visibility into AWS Applications and Infrastructure with Splunk® Observability Cloud
+    url: https://conf.splunk.com/files/2024/slides/OBS1112C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1112C.mp4
+  - title: Get Hands-on with Splunk® Enterprise Security
+    url: https://conf.splunk.com/files/2024/slides/SEC1210B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1210B.mp4
+  - title: Get More Out of Splunk® Platform and Unlock Faster, More Cost-Efficient Troubleshooting For Your Cloud Environment
+    url: https://conf.splunk.com/files/2024/slides/OBS1798B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1798B.mp4
+  - title: Get the Most Out of Your Existing Kubernetes Java Applications Using Splunk® OpenTelemetry Automatic Discovery and Configuration Auto Instrumentation
+    url: https://conf.splunk.com/files/2024/slides/OBS1079B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1079B.mp4
+  - title: Getting the Pirates to Drink the RUM
+    url: https://conf.splunk.com/files/2024/slides/OBS1606C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1606C.mp4
+  - title: Git Committed to C2 Detection and Response: Merging RBA and SOAR to Identify Malicious Git Traffic
+    url: https://conf.splunk.com/files/2024/slides/SEC1874C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1874C.mp4
+  - title: Git Good With Splunk®: Commit to Config Versioning and Deployment Automation for Your Splunk Infrastructure
+    url: https://conf.splunk.com/files/2024/slides/PLA1610C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1610C.mp4
+  - title: Git Your Apps Together! A Journey To Maintain Lovable Apps and Add-ons
+    url: https://conf.splunk.com/files/2024/slides/DEV1588B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/DEV1588B.mp4
+  - title: Harnessing Multimodal Data for Enhanced Splunk Analytics
+    url: https://conf.splunk.com/files/2024/slides/DEV1351C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/DEV1351C.mp4
+  - title: Harness the High-Octane Fuel Needed to Drive Successful AIOps, Performance and Security Initiatives
+    url: https://conf.splunk.com/files/2024/slides/OBS1939.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1939.mp4
+  - title: Heavy Forwarders: How Heavy Arth Thou
+    url: https://conf.splunk.com/files/2024/slides/PLA1509B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1509B.mp4
+  - title: Help Your Analysts SOAR
+    url: https://conf.splunk.com/files/2024/slides/SEC1495C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1495C.mp4
+  - title: How a Global Energy Leader Monitors Its Critical Business Applications and Provides Visibility to the Business Teams Using AIOps
+    url: https://conf.splunk.com/files/2024/slides/OBS1330C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1330C.mp4
+  - title: How AI Gives You the Whole Picture with Getting Better Data into Splunk® Enterprise
+    url: https://conf.splunk.com/files/2024/slides/PLA1855C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1855C.mp4
+  - title: How Am I Spending My APM Quota Unveiling Enhanced Visibility?
+    url: https://conf.splunk.com/files/2024/slides/OBS1683B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1683B.mp4
+  - title: How National Bank of Canada Revved Up the Cybersecurity Thrills with Splunk® Mission Control in Splunk® Enterprise Security
+    url: https://conf.splunk.com/files/2024/slides/SEC1448C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1448C.mp4
+  - title: How Not to Miss a Requirement: Splunk, Trellix and Tenable Walk Into a Dashboard (A NIST 800-53 Family Story - Part 1)
+    url: https://conf.splunk.com/files/2024/slides/SEC1172C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1172C.mp4
+  - title: How Splunk® Drove Board-Level Value and Force Multiplied with Limited Staff to Provide Observability and Security Operations with One Pane of Glass
+    url: https://conf.splunk.com/files/2024/slides/PLA1522C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1522C.mp4
+  - title: How S&P Turbocharged and Bulletproofed their Race to Cloud Native with Splunk® Observability Cloud
+    url: https://conf.splunk.com/files/2024/slides/OBS1684C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1684C.mp4
+  - title: How the Brazilian Stock Exchange Operates in Real Time with Splunk®
+    url: https://conf.splunk.com/files/2024/slides/PLA1476C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1476C.mp4
+  - title: How The Hartford Protects Application Security with Splunk® Machine Learning
+    url: https://conf.splunk.com/files/2024/slides/PLA1466C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1466C.mp4
+  - title: How to Automatically Reduce False Positives with Generative AI
+    url: https://conf.splunk.com/files/2024/slides/SEC1423B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1423B.mp4
+  - title: How to Build an AI Detection Engineering Copilot
+    url: https://conf.splunk.com/files/2024/slides/SEC1139B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1139B.mp4
+  - title: How to Downgrade Your Fear of Upgrades
+    url: https://conf.splunk.com/files/2024/slides/PLA1331C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1331C.mp4
+  - title: Hunting M365 Invaders: Tactical Insights for M365 Threat Detection
+    url: https://conf.splunk.com/files/2024/slides/SEC1470B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1470B.mp4
+  - title: Hunting RATs: How to Uncover Threats Disguised as Debugger Applications
+    url: https://conf.splunk.com/files/2024/slides/SEC1283B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1283B.mp4
+  - title: I Can SPL™, Too: A User Panel Shares Experiences, Tips and Tricks on Using SPL2 in Multiple Splunk Products
+    url: https://conf.splunk.com/files/2024/slides/PLA1224B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1224B.mp4
+  - title: If You’re Seeing High Search Skip Rate, Don’t Skip This Session!
+    url: https://conf.splunk.com/files/2024/slides/PLA1411B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1411B.mp4
+  - title: Illuminating the Business Context: Technical Insights Into Cisco AppDynamics®
+    url: https://conf.splunk.com/files/2024/slides/OBS2745.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS2745.mp4
+  - title: Improve Your Security Posture with AI-driven Insights Using Amazon Security Lake, Splunk and Recorded Future
+    url: https://conf.splunk.com/files/2024/slides/SEC1922.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1922.mp4
+  - title: Ingest Terabytes of Data into Splunk® Cloud Platform Using Pull Based Connectors
+    url: https://conf.splunk.com/files/2024/slides/PLA1685B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1685B.mp4
+  - title: Introducing Cloud Flexibility : Manage your Splunk Capacity as Per the Dynamic Needs of Your Business!
+    url: https://conf.splunk.com/files/2024/slides/PLA1262B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1262B.mp4
+  - title: ITSIncredible: Bidirectional Communication – Let Your ITSI and Ticket System Talk
+    url: https://conf.splunk.com/files/2024/slides/OBS1137C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1137C.mp4
+  - title: ITSIncredible: From ITSI to OnCall - Direct and Meaningful Alerting: Getting to the Point
+    url: https://conf.splunk.com/files/2024/slides/OBS1099B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1099B.mp4
+  - title: ITSI Quick Moves, Attractive Outcomes: How to be a Hero in a Jiffy!
+    url: https://conf.splunk.com/files/2024/slides/OBS1782B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1782B.mp4
+  - title: ITSI: The Tip of the Iceberg
+    url: https://conf.splunk.com/files/2024/slides/OBS1223C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1223C.mp4
+  - title: Lessons on Fixing Splunk® Enterprise from Cloud Migration Experts Part 2
+    url: https://conf.splunk.com/files/2024/slides/PLA1135B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1135B.mp4
+  - title: Let’s NOT make the News Today...People!!: Using ITSI For Situational Awareness in a Heterogeneous Environment
+    url: https://conf.splunk.com/files/2024/slides/OBS1494C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1494C.mp4
+  - title: Leveraging Splunk® to Reduce Cost
+    url: https://conf.splunk.com/files/2024/slides/PLA1191C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1191C.mp4
+  - title: Leveraging the Splunk-Powered SOC to Secure Louisiana Higher Ed and Build Student Talent
+    url: https://conf.splunk.com/files/2024/slides/SEC1256B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1256B.mp4
+  - title: Lighter, Faster and Calmer "Splunk"-ing with | makeresults and | gentimes and Some Random()
+    url: https://conf.splunk.com/files/2024/slides/PLA1211B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1211B.mp4
+  - title: Make the Most out of Your Data Lake Using the Latest Features in Federated Search for Amazon S3
+    url: https://conf.splunk.com/files/2024/slides/PLA1743B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1743B.mp4
+  - title: Manage Big Fleets of Forwarders Using Deployment Server
+    url: https://conf.splunk.com/files/2024/slides/PLA1655B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1655B.mp4
+  - title: Mastering AWS Security with Splunk: Ingestion, Monitoring and Incident Response
+    url: https://conf.splunk.com/files/2024/slides/SEC1921.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1921.mp4
+  - title: Mastering Growth Without Breaking the Bank: Your Guide to Scaling with Splunk® Observability Cloud
+    url: https://conf.splunk.com/files/2024/slides/OBS1462B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1462B.mp4
+  - title: Mastering OpenTelemetry at Scale: Insights from Orchestrating 60k+ OpenTelemetry Collectors
+    url: https://conf.splunk.com/files/2024/slides/OBS1580B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1580B.mp4
+  - title: Maximizing Splunk Core: Analyzing Splunk Searches Using Audittrail and Native Splunk Telemetry
+    url: https://conf.splunk.com/files/2024/slides/PLA1837B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1837B.mp4
+  - title: ML in Security: Developing Behavioral Analytics and Generative AI Based Threat Detections
+    url: https://conf.splunk.com/files/2024/slides/SEC1628B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1628B.mp4
+  - title: Modernize Your GDI and Optimize Your Data with Splunk Data Management Experience (DMX)
+    url: https://conf.splunk.com/files/2024/slides/PLA1803B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1803B.mp4
+  - title: New High Score: How to Play RBA and Win!
+    url: https://conf.splunk.com/files/2024/slides/SEC1186C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1186C.mp4
+  - title: New Innovations in Cisco AppDynamics® That Enhance Observability for Hybrid and On-prem Applications
+    url: https://conf.splunk.com/files/2024/slides/OBS2743.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS2743.mp4
+  - title: New Innovations with Splunk® Enterprise Security
+    url: https://conf.splunk.com/files/2024/slides/SEC1209A.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1209A.mp4
+  - title: Novuna’s Journey to Automation
+    url: https://conf.splunk.com/files/2024/slides/SEC1418C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1418C.mp4
+  - title: Observability Customer Panel: Making the Business Case
+    url: https://conf.splunk.com/files/2024/slides/OBS1451B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1451B.mp4
+  - title: Observability: Going from Out of the Box to Out of the Gate
+    url: https://conf.splunk.com/files/2024/slides/OBS1599B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1599B.mp4
+  - title: Observability Myths: Data Explosion, Runaway Costs and Vendor Lock-in
+    url: https://conf.splunk.com/files/2024/slides/OBS1645B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1645B.mp4
+  - title: OCSF: Open Frameworks for Organic Intelligence
+    url: https://conf.splunk.com/files/2024/slides/SEC1170C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1170C.mp4
+  - title: Operationalizing Machine Learning: Intermediate Methods and Fundamentals
+    url: https://conf.splunk.com/files/2024/slides/PLA1439B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1439B.mp4
+  - title: Optimize Your Data Landscape with Splunk's Data Management Pipeline Processing
+    url: https://conf.splunk.com/files/2024/slides/PLA1819C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1819C.mp4
+  - title: Optimizing Data Ingestion and Security with Splunk Data Manager and Microsoft Cloud Services Add-on
+    url: https://conf.splunk.com/files/2024/slides/PLA1326B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1326B.mp4
+  - title: PepsiCo and PEAK: Building a Next-Gen Threat Hunting Program for a Fortune 50 Enterprise
+    url: https://conf.splunk.com/files/2024/slides/SEC1086B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1086B.mp4
+  - title: Plug-n-Play Data Detections — An Architecture for Speed and Agility
+    url: https://conf.splunk.com/files/2024/slides/SEC1458C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1458C.mp4
+  - title: PPT - Driving Government Resilience
+    url: https://conf.splunk.com/files/2024/slides/OBS1311C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1311C.mp4
+  - title: Practical SOAR Examples from the Field
+    url: https://conf.splunk.com/files/2024/slides/SEC1579B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1579B.mp4
+  - title: Quick Peek, Big Impact: Splunk® Dashboard Studio’s Instant Insight Revolution!
+    url: https://conf.splunk.com/files/2024/slides/PLA1155C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1155C.mp4
+  - title: Rationalizing Splunk Data Models: Take Control of Your Data Models in a Sea of Growing Data and Risk
+    url: https://conf.splunk.com/files/2024/slides/SEC1714B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1714B.mp4
+  - title: Reading the C-Suite: Crafting a Strategic Narrative Through Executive Metrics
+    url: https://conf.splunk.com/files/2024/slides/SEC1245B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1245B.mp4
+  - title: Real-time Data Streaming from AWS to Splunk with Amazon Data Firehose
+    url: https://conf.splunk.com/files/2024/slides/PLA1923.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1923.mp4
+  - title: Reduce Cloud Risk with CSPM and Splunk
+    url: https://conf.splunk.com/files/2024/slides/SEC1535C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1535C.mp4
+  - title: Reducing Operational Costs and Improving Efficiency with SOAR
+    url: https://conf.splunk.com/files/2024/slides/SEC1667B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1667B.mp4
+  - title: Resiliency Needs a Data Strategy: How to Maximize Business Insights and Control Costs with Growing Demand
+    url: https://conf.splunk.com/files/2024/slides/PLA1841B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1841B.mp4
+  - title: Resiliency: Splunk® Cloud Platform (SCP) - Technical Deep-dive into the Resiliency Solution to Achieve the RTO/RPO Objectives of Our Customers
+    url: https://conf.splunk.com/files/2024/slides/PLA1169C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1169C.mp4
+  - title: Revitalizing Threat Detection and Alerting: A Journey with Splunk® Enterprise Security
+    url: https://conf.splunk.com/files/2024/slides/SEC1288C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1288C.mp4
+  - title: Revolutionizing Resilience: Medtronic's Global Supply Chain Monitoring Success with Splunk® IT Service Intelligence (ITSI)
+    url: https://conf.splunk.com/files/2024/slides/OBS1555C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1555C.mp4
+  - title: Rev Up Your Searches with this One Trick!
+    url: https://conf.splunk.com/files/2024/slides/PLA1716C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1716C.mp4
+  - title: Run Your Security Workloads on Amazon Security Lake with Federated Analytics and Federated Search
+    url: https://conf.splunk.com/files/2024/slides/PLA1320B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1320B.mp4
+  - title: Safeguarding Futures, Unleashing OTEL: Orange Cyberdefense and Splunk in Perfect Containerized Symmetry
+    url: https://conf.splunk.com/files/2024/slides/PLA1577C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1577C.mp4
+  - title: Sail Smoothly Through the Sea of Containers with Splunk® Observability’s Latest Kubernetes Monitoring Updates
+    url: https://conf.splunk.com/files/2024/slides/OBS1800B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1800B.mp4
+  - title: Scale Your Splunk Cloud Operations with the Splunk Content Manager App
+    url: https://conf.splunk.com/files/2024/slides/PLA1113B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1113B.mp4
+  - title: Scaling Your Storage with SmartStore: How Amadeus Manages Petabytes in Azure
+    url: https://conf.splunk.com/files/2024/slides/PLA1232B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1232B.mp4
+  - title: Searching Simple Storage Service (S3) | Cost Effective Data LifeCycle with Splunk
+    url: https://conf.splunk.com/files/2024/slides/PLA1390B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1390B.mp4
+  - title: Secure the Dough: Building Custom Detections and Capturing Metrics that Drive Change
+    url: https://conf.splunk.com/files/2024/slides/SEC1630C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1630C.mp4
+  - title: Securing Active Directory: Detecting and Preventing ADCS Attacks with Splunk
+    url: https://conf.splunk.com/files/2024/slides/SEC1160C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1160C.mp4
+  - title: Security Use Cases Meet Machine Learning: The Good, the Bad and Where to Begin
+    url: https://conf.splunk.com/files/2024/slides/SEC1794C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1794C.mp4
+  - title: Service Centric Views: Unlock In-Depth Insights
+    url: https://conf.splunk.com/files/2024/slides/OBS1674A.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1674A.mp4
+  - title: Shape Your Data and Maximize Metrics Usage in Your Monitoring Journey
+    url: https://conf.splunk.com/files/2024/slides/PLA1882B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1882B.mp4
+  - title: SOARing from Zero to Hero: Crafting SOPs and Mastering Splunk® SOAR Automation.
+    url: https://conf.splunk.com/files/2024/slides/SEC1173B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1173B.mp4
+  - title: Software Voyeurism: Insight into System Health
+    url: https://conf.splunk.com/files/2024/slides/OBS1472C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1472C.mp4
+  - title: SPL2 for DMX: A Practical Guide
+    url: https://conf.splunk.com/files/2024/slides/PLA1756B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1756B.mp4
+  - title: Splunk® AI Assistant (Preview) for Observability Cloud: Get Help Turning into a Troubleshooting Expert with GenAI
+    url: https://conf.splunk.com/files/2024/slides/OBS1396B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1396B.mp4
+  - title: Splunk® APM @ Box: A Success Story
+    url: https://conf.splunk.com/files/2024/slides/OBS1687C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1687C.mp4
+  - title: Splunk App Building 101: Learn, Create and Navigate the Ecosystem
+    url: https://conf.splunk.com/files/2024/slides/DEV1885B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/DEV1885B.mp4
+  - title: Splunk® Dashboard Studio for Beginners and Non-Designers
+    url: https://conf.splunk.com/files/2024/slides/PLA1248B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1248B.mp4
+  - title: Splunk Diet: Elevate Your GDI Cooking Game and Feed Splunk Healthy Data
+    url: https://conf.splunk.com/files/2024/slides/PLA1846C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1846C.mp4
+  - title: Splunking your Cloud Data Lakes with On-demand Indexing
+    url: https://conf.splunk.com/files/2024/slides/PLA1261B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1261B.mp4
+  - title: Splunk® IT Service Intelligence (ITSI) - The Latest and Greatest!
+    url: https://conf.splunk.com/files/2024/slides/OBS1405C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1405C.mp4
+  - title: Splunk Universal Forwarder (UF), the OpenTelemetry Add-on and You: Let's Get All the Data!
+    url: https://conf.splunk.com/files/2024/slides/PLA1117B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1117B.mp4
+  - title: Spring Clean Your Splunk®: Finding and Removing Redundant and Inefficient Workloads
+    url: https://conf.splunk.com/files/2024/slides/PLA1457B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1457B.mp4
+  - title: Starting FAST with Splunk® IT Service Intelligence: How Pre-built Content and Key Features Will Maximize Your Operational Visibility FAST!
+    url: https://conf.splunk.com/files/2024/slides/OBS1367B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1367B.mp4
+  - title: Starting Over From Scratch: A True Story
+    url: https://conf.splunk.com/files/2024/slides/PLA1066C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1066C.mp4
+  - title: Supercharge Splunk with AI: Splunk® AI Assistant for SPL
+    url: https://conf.splunk.com/files/2024/slides/PLA1795B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1795B.mp4
+  - title: Supercharge Your Universal Forwarders (UFs) with the OpenTelemetry Add-on for your DevOps team
+    url: https://conf.splunk.com/files/2024/slides/PLA1492C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1492C.mp4
+  - title: SuperSplunker Skills with Your Own Generated Data - Advanced Use Cases With | gentimes and | makeresults
+    url: https://conf.splunk.com/files/2024/slides/PLA1851B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1851B.mp4
+  - title: SURGe Minicon: Attack Frameworks: They're Not Just for Traditional Cybersecurity
+    url: https://conf.splunk.com/files/2024/slides/SEC1932.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1932.mp4
+  - title: SURGe Minicon: Dissecting the Top Remote Code Execution Vulnerabilities of Q1 2024
+    url: https://conf.splunk.com/files/2024/slides/SEC1927.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1927.mp4
+  - title: SURGe Minicon: How to Make Sense of Change: The Advancement of Cybersecurity Leadership
+    url: https://conf.splunk.com/files/2024/slides/SEC1933.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1933.mp4
+  - title: SURGe Minicon: In Defense of the SOC Analyst: Why You Can’t Automate the SOC Away Yet
+    url: https://conf.splunk.com/files/2024/slides/SEC1931.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1931.mp4
+  - title: SURGe Minicon: Inspect Your Deck to Protect Your Neck
+    url: https://conf.splunk.com/files/2024/slides/SEC1930.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1930.mp4
+  - title: SURGe Minicon: LLM Lifeguard: Protecting LLMs Using Splunk and the OWASP Top 10 for LLM Applications
+    url: https://conf.splunk.com/files/2024/slides/SEC1928.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1928.mp4
+  - title: SURGe Minicon: My Way is Not Very Sportsman-Like
+    url: https://conf.splunk.com/files/2024/slides/SEC1926.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1926.mp4
+  - title: Take Your Splunk® Observability Game to the Next Level with Tags
+    url: https://conf.splunk.com/files/2024/slides/OBS1125B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1125B.mp4
+  - title: The Automation Games: An Interactive Workshop with Splunk® SOAR
+    url: https://conf.splunk.com/files/2024/slides/SEC1565B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1565B.mp4
+  - title: The Blueprint of Detection: Engineering, Tools and Metrics
+    url: https://conf.splunk.com/files/2024/slides/SEC1410B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1410B.mp4
+  - title: The Conman's Curse: Tales from the Field for Detecting Fraud with Splunk
+    url: https://conf.splunk.com/files/2024/slides/SEC1633B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1633B.mp4
+  - title: The Definitive List of Best Practices for Splunk® IT Service Intelligence: How to Configure, Administer and Use ITSI for Optimal Results
+    url: https://conf.splunk.com/files/2024/slides/OBS1082B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1082B.mp4
+  - title: The Future of Fraud Detection: Using Data Analytics to Prevent Fraud and Improve Security in Government
+    url: https://conf.splunk.com/files/2024/slides/SEC1406B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1406B.mp4
+  - title: To Log or Not to Log: When, Why and How to Use Your Observability Data to Improve Performance and Manage Costs
+    url: https://conf.splunk.com/files/2024/slides/OBS1306B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1306B.mp4
+  - title: Turbocharge Your Splunk Workflows with New Features in Visual Studio Code
+    url: https://conf.splunk.com/files/2024/slides/DEV1366B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/DEV1366B.mp4
+  - title: Turn Down the Volume with Risk-Based Alerting (RBA)
+    url: https://conf.splunk.com/files/2024/slides/SEC1316B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1316B.mp4
+  - title: Uniting the Platform: Sending Events to Splunk® Observability From Other Splunk Products
+    url: https://conf.splunk.com/files/2024/slides/OBS1097B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1097B.mp4
+  - title: Unleashing the Power  of OpenTelemetry with Splunk® Cloud and Splunk® Observability Cloud for Enhanced Observability
+    url: https://conf.splunk.com/files/2024/slides/OBS1435C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1435C.mp4
+  - title: Unleashing the Power of REST APIs with OpenAPI™
+    url: https://conf.splunk.com/files/2024/slides/DEV1614B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/DEV1614B.mp4
+  - title: Unleashing the Power of Splunk® AI: A MLTK and DSDL Operationalization and Use Case Workshop
+    url: https://conf.splunk.com/files/2024/slides/DEV1293A.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/DEV1293A.mp4
+  - title: Unlocking and Bridging Data Across Splunk® Cloud Platform and Amazon S3 with IP, EP and FS-S3
+    url: https://conf.splunk.com/files/2024/slides/PLA1175B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1175B.mp4
+  - title: Unlocking Manufacturing Potential: Human In The Loop for Real-Time Insights in Electric Mobility Components Production
+    url: https://conf.splunk.com/files/2024/slides/PLA1271C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1271C.mp4
+  - title: Use Federated Analytics to Run Security Workloads Against Amazon Security Lake
+    url: https://conf.splunk.com/files/2024/slides/SEC1212A.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1212A.mp4
+  - title: Using AI for SecOps Efficiency
+    url: https://conf.splunk.com/files/2024/slides/SEC1528A.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1528A.mp4
+  - title: Using Splunk and Dataminr to Protect Your Critical Assets from External Threats
+    url: https://conf.splunk.com/files/2024/slides/SEC2142.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC2142.mp4
+  - title: Using Splunk as the Center of Your Insider Threat Detection Hub
+    url: https://conf.splunk.com/files/2024/slides/SEC1695B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1695B.mp4
+  - title: Visualizing Value with Splunk: How to Save Time and Money for Everyone (Not Just IT and Security) Using the Big Screen
+    url: https://conf.splunk.com/files/2024/slides/PLA1498C.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1498C.mp4
+  - title: Walk a Mile in Your Users' Digital Shoes: Crafting Seamless User Experience with Digital Experience Monitoring
+    url: https://conf.splunk.com/files/2024/slides/OBS1682B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/OBS1682B.mp4
+  - title: Want to SPL™, Too? An Introduction to SPL2 in Splunk GDI & Search Solutions
+    url: https://conf.splunk.com/files/2024/slides/PLA1389B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1389B.mp4
+  - title: What's New in Splunk® SOAR?
+    url: https://conf.splunk.com/files/2024/slides/SEC1562A.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/SEC1562A.mp4
+  - title: What's New with Splunk® Cloud Platform and Splunk® Enterprise 9.2
+    url: https://conf.splunk.com/files/2024/slides/PLA1116B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1116B.mp4
+  - title: Zero to GDI Hero: Learning How To Filter, Mask, Route & Metricize Your Data with Ingest Processor, Edge Processor and Ingest Actions
+    url: https://conf.splunk.com/files/2024/slides/PLA1403B.pdf
+    recording: https://conf.splunk.com/files/2024/recordings/PLA1403B.mp4
