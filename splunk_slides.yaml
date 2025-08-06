@@ -435,14 +435,10 @@
     url: https://conf.splunk.com/files/2021/slides/DEV1560B.pdf
   - title: Debugging Splunk Apps, Add-ons, and Configurations using Visual Studio Code
     url: https://conf.splunk.com/files/2021/slides/DEV1147C.pdf
-  - title: Growing and Managing Splunk Enterprise as a Team of One
-    url: https://conf.splunk.com/files/2021/slides/PLA1410C.pdf
   - title: ITSI Service Templates
     url: https://conf.splunk.com/files/2021/slides/PLA1327B.pdf
   - title: Monitoring Console Health Troubleshooting
     url: https://conf.splunk.com/files/2021/slides/TRU1172B.pdf
-  - title: From Search to Tstats: Efficient Statistical Searches
-    url: https://conf.splunk.com/files/2021/slides/TRU1133B.pdf
   - title: Building Service Templates and Automatic Service Tree
     url: https://conf.splunk.com/files/2021/slides/ITO1165C.pdf
   - title: IT Service Intelligence Deployment Best Practices
@@ -457,6 +453,150 @@
     url: https://conf.splunk.com/files/2021/slides/ITO1425B.pdf
   - title: Anomaly Detection, Sealed with a KISS
     url: https://conf.splunk.com/files/2021/slides/PLA1553B.pdf
+  - title: Busting the Curve: Specific Techniques to Decouple Splunk Cost From Your Exploding Machine Data Volumes
+    url: https://conf.splunk.com/files/2021/slides/PLA1265C.pdf
+  - title: Cloud Migrations Without the Migraine
+    url: https://conf.splunk.com/files/2021/slides/PLA1102B.pdf
+  - title: From Noob to Ninja: Growing and Managing Splunk Enterprise as a Team of One
+    url: https://conf.splunk.com/files/2021/slides/PLA1410C.pdf
+  - title: Administrators Anonymous: Splunk Best Practices and Useful Tricks I Learned the Hard Way
+    url: https://conf.splunk.com/files/2021/slides/TRU1112B.pdf
+  - title: Best Practices and Better Practices for Admins
+    url: https://conf.splunk.com/files/2021/slides/PLA1264B.pdf
+  - title: Build-A-Dashboard Workshop: Get Hands-on with Dashboard Studio
+    url: https://conf.splunk.com/files/2021/slides/PLA1811C.pdf
+  - title: How I Built It: Extending the New Dashboard Framework for Real-World Applications
+    url: https://conf.splunk.com/files/2021/slides/DEV1328C.pdf
+  - title: Clara-Fication: More Tstats for Your Buckets
+    url: https://conf.splunk.com/files/2021/slides/TRU1133B.pdf
+  - title: An Introduction And What’s New Over The Past Year
+    url: https://conf.splunk.com/files/2021/slides/ITO1779C.pdf
+  - title: Botify Splunk To Improve Collaboration, Cost and MTTR
+    url: https://conf.splunk.com/files/2021/slides/ITO1185B.pdf
+  - title: Extending Monitoring With Observability
+    url: https://conf.splunk.com/files/2021/slides/DVO1261C.pdf
+  - title: Getting Started With Splunk Observability
+    url: https://conf.splunk.com/files/2021/slides/DVO1111C.pdf
+  - title: Splunk Real User Monitoring – Every Second Counts
+    url: https://conf.splunk.com/files/2021/slides/DVO1227B.pdf
+  - title: 10GB to Workload Pricing: Our Journey in Getting Splunk Buy-In at Scale
+    url: https://conf.splunk.com/files/2021/slides/PLA1224B.pdf
+  - title: A Deep-Dive Into How Zoom Is Building a World-Class Detection Pipeline in Response to the Zoom-Boom!
+    url: https://conf.splunk.com/files/2021/slides/SEC1466A.pdf
+  - title: Getting Started with Splunk Observability
+    url: https://conf.splunk.com/files/2021/slides/DVO1111C.pdf
+  - title: Seeing RED, Using USE
+    url: https://conf.splunk.com/files/2021/slides/DVO1054C.pdf
+  - title: Getting Started with OpenTelemetry Collector
+    url: https://conf.splunk.com/files/2021/slides/DVO1500C.pdf
+  - title: Splunk Log Observer
+    url: https://conf.splunk.com/files/2021/slides/DVO1712B.pdf
+  - title: How to add Observability to Splunk Cloud
+    url: https://conf.splunk.com/files/2021/slides/DVO1822C.pdf
+  - title: Debating Logs vs. Traces
+    url: https://conf.splunk.com/files/2021/slides/DVO1312B.pdf
+  - title: OTel Me Why
+    url: https://conf.splunk.com/files/2021/slides/DVO1498C.pdf
+  - title: Progressive’s Journey - From Hand-Rolled to Shrink-Wrapped - Trace Everything
+    url: https://conf.splunk.com/files/2021/slides/DVO1179B.pdf
+  - title: Care.com - Using OpenTelemetry and Splunk APM
+    url: https://conf.splunk.com/files/2021/slides/DVO1377B.pdf
+  - title: Diligent - Observability as Code
+    url: https://conf.splunk.com/files/2021/slides/DVO1565B.pdf
+  - title: Splunk - How Splunk splunks Splunk and uses Splunk to act on issues /w Splunk
+    url: https://conf.splunk.com/files/2021/slides/DVO1584B.pdf
+  - title: Workforce Analytics
+    url: https://conf.splunk.com/files/2021/slides/ITO1150C.pdf
+  - title: Lenovo
+    url: https://conf.splunk.com/files/2021/slides/ITO1256B.pdf
+  - title: Lockheed Martin - From API to “Oh My!” - Automated IT DevOps Self-Healing
+    url: https://conf.splunk.com/files/2021/slides/ITO1391B.pdf
+  - title: AWS - scaling k8s /w Splunk and AWS
+    url: https://conf.splunk.com/files/2021/slides/ITO1564B.pdf
+  - title: Understanding Why Your Business Tomorrow Needs AIOps Today
+    url: https://conf.splunk.com/files/2021/slides/ITO1662C.pdf
+  - title: Using Splunk To Scale and Drive Cloud Financial Management Processes at Yelp
+    url: https://conf.splunk.com/files/2021/slides/ITO1617B.pdf
+  - title: NPM with eBPF for Network Observability
+    url: https://conf.splunk.com/files/2021/slides/DVO1137A.pdf
+  - title: Monitoring for traditional applications in legacy environments with new AlwaysOn Profiling
+    url: https://conf.splunk.com/files/2021/slides/DVO1290A.pdf
+  - title: Expanded coverage for user monitoring with RUM for mobile apps
+    url: https://conf.splunk.com/files/2021/slides/DVO1164A.pdf
+  - title: New integration to explore and troubleshoot logs stored in Splunk Enterprise natively in Splunk Observability
+    url: https://conf.splunk.com/files/2021/slides/ITO1763C.pdf
+  - title: Content Pack 4 Synthetic Monitoring
+    url: https://conf.splunk.com/files/2021/slides/ITO1779C.pdf
+  - title: Content Pack 4 Synthetic Monitoring
+    url: https://conf.splunk.com/files/2021/slides/ITO1640C.pdf
+  - title: Content Pack 4 Synthetic Monitoring
+    url: https://conf.splunk.com/files/2021/slides/ITO1694C.pdf
+  - title: Accenture's Journey to Risk Based Alerting with Splunk Enterprise Security and Beyond  
+    url: https://conf.splunk.com/files/2021/slides/SEC1249A.pdf
+  - title: Learn by Doing: California Polytechnic State University Students Enable Security Operations Center  
+    url: https://conf.splunk.com/files/2021/slides/SEC1361B.pdf
+  - title: SIEM, SOAR and XDR...Which One?  
+    url: https://conf.splunk.com/files/2021/slides/SEC1742C.pdf
+  - title: The Challenges and Solutions for Modern Infrastructure Monitoring and Troubleshooting  
+    url: https://conf.splunk.com/files/2021/slides/DVO1603B.pdf
+  - title: Fast Pass to Getting Started with Splunk for IT Operations Use Cases  
+    url: https://conf.splunk.com/files/2021/slides/ITO1085C.pdf
+  - title: Gain Real-Time Insights into SAP with Splunk IT Service Intelligence and PowerConnect  
+    url: https://conf.splunk.com/files/2021/slides/ITO1233B.pdf
+  - title: Level Up! How To Go From a Beginner to a Champion in Splunk Security  
+    url: https://conf.splunk.com/files/2021/slides/SEC1396C.pdf
+  - title: Got Assets? Detecting and Protecting Assets with Splunk  
+    url: https://conf.splunk.com/files/2021/slides/SEC1689C.pdf
+  - title: AbnormalML - Using Math to Stop Bad Guys in ES Detections  
+    url: https://conf.splunk.com/files/2021/slides/SEC1708C.pdf
+  - title: Securing the Software Factory with Splunk  
+    url: https://conf.splunk.com/files/2021/slides/SEC1108C.pdf
+  - title: Hunting the Known Unknown: Supply Chain Attacks  
+    url: https://conf.splunk.com/files/2021/slides/SEC1745C.pdf
+  - title: Implementing Zero Trust  
+    url: https://conf.splunk.com/files/2021/slides/SEC1800A.pdf
+  - title: What’s New in Splunk Enterprise Security?  
+    url: https://conf.splunk.com/files/2021/slides/SEC1271.pdf
+  - title: RBA and VMware  
+    url: https://conf.splunk.com/files/2021/slides/SEC1163.pdf
+  - title: RBA and Accenture  
+    url: https://conf.splunk.com/files/2021/slides/SEC1249.pdf
+  - title: RBA and Chevron  
+    url: https://conf.splunk.com/files/2021/slides/SEC1162.pdf
+  - title: Reduce Noise From Intel Sources with TruSTAR + ES  
+    url: https://conf.splunk.com/files/2021/slides/SEC1546A.pdf
+  - title: Automated Vulnerability Detection  
+    url: https://conf.splunk.com/files/2021/slides/SEC1209A.pdf
+  - title: Automated Incident Response  
+    url: https://conf.splunk.com/files/2021/slides/SEC1590C.pdf
+  - title: Uber and Splunk SOAR  
+    url: https://conf.splunk.com/files/2021/slides/SEC1194.pdf
+  - title: SOAR Overview  
+    url: https://conf.splunk.com/files/2021/slides/SEC1301C.pdf
+  - title: Optimize for Cheaper Storage & Search on Splunk Cloud Platform  
+    url: https://conf.splunk.com/files/2021/slides/PLA1462A.pdf
+  - title: Seamlessly Search Your Data Wherever It Lives With New Splunk Federated Search  
+    url: https://conf.splunk.com/files/2021/slides/PLA1540A.pdf
+  - title: Introducing Splunk UI Framework: Build Splunk Apps with React  
+    url: https://conf.splunk.com/files/2021/slides/DEV1134A.pdf
+  - title: Splunk + React = :Mindblown:  
+    url: https://conf.splunk.com/files/2021/slides/DEV1595B.pdf
+  - title: What’s New in Splunk Cloud Platform  
+    url: https://conf.splunk.com/files/2021/slides/PLA1468A.pdf
+  - title: Simplify Getting Data In with the New Data Manager & Stream Processing Service  
+    url: https://conf.splunk.com/files/2021/slides/PLA1467A.pdf
+  - title: Reimagine Data Visualization with Splunk Dashboard Studio  
+    url: https://conf.splunk.com/files/2021/slides/PLA1266A.pdf
+  - title: TransUnion, Using Anomaly Detection in Dashboard Studio To Reduce MTTR  
+    url: https://conf.splunk.com/files/2021/slides/PLA1690C.pdf
+  - title: Get the Most Out of Splunk Mobile and Splunk TV  
+    url: https://conf.splunk.com/files/2021/slides/PLA1152B.pdf
+  - title: Enable Splunk Mobile for Private Networks With Lockheed Martin  
+    url: https://conf.splunk.com/files/2021/slides/PLA1314A.pdf
+  - title: McLaren: Driven by Data  
+    url: https://conf.splunk.com/files/2021/slides/PLA1450B.pdf
+  - title: Splunk@Home: How To Create Your Own Training Rig Using Data In Your Home!  
+    url: https://conf.splunk.com/files/2021/slides/S4U1049B
 
 - year: 2022
   slides:
