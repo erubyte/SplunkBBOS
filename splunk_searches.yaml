@@ -211,6 +211,357 @@
   tags:
     - time
 
+- title: Create a set of sample data 
+  author: Azeemering 
+  spl: |
+    | windbag
+  description: Generates a set of sample data for testing purposes
+  tags:
+    - utils  
+
+- title: Identify skipped searches
+  author: 
+  spl: |
+    | index = _internal skipped sourcetype=scheduler status=skipped host=<<searchhead>> 
+    | stats count by app search_type reason savedsearch_name 
+    | sort -count
+  description: Identify high amounts of skipped searches in a cluster or standalone SH(s)
+  tags:
+    - utils
+
+- title: Disk Usage per Index by Indexer 
+  author: L. T. Rand
+  spl: |
+    | dbinspect index=_internal 
+    | stats sum(sizeOnDiskMB) by splunk_server
+  description: Instead of grabbing data from all time, using the dbinspect command will allow administrators to quickly determine how big an index is.
+  tags:
+    - utils
+    - index
+
+- title: KVStore metrics
+  author: C. Cloutier
+  spl: |
+    | rest /services/server/introspection/kvstore/collectionstats
+    | mvexpand data
+    | spath input=data
+    | rex field=ns "(?<App>.*)\.(?<Collection>.*)"
+    | eval dbsize=round(size/1024/1024, 2)
+    | eval indexsize=round(totalIndexSize/1024/1024, 2)
+    | stats first(count) AS "Number of Objects" first(nindexes) AS Accelerations first(indexsize) AS "Acceleration Size (MB)" first(dbsize) AS "Collection Size (MB)" by App, Collection
+  description: Metrics about KVStore collections
+  tags:
+    - kvstore
+    - utils
+
+- title: Datamodel search performance 
+  author: Azeemering
+  spl: |
+    | index=_internal sourcetype=scheduler component=SavedSplunker ACCELERATE NOT skipped run_time=* 
+    | rex field=savedsearch_id "ACCELERATE_(?:[A-F0-9\-]{36}_)?(?<acceleration>.*?)_ACCELERATE"
+    | timechart span=5m max(run_time) AS run_time by acceleration
+  description: Run this search using the Line Chart visualization to see the performance of datamodel searches over time
+  tags: 
+    - datamodel
+    - utils
+
+- title: Baselining Dashboard 
+  author: 
+  spl: |
+    | index=foo earliest=-1d latest=now 
+    | timechart span=10m count as Current 
+    | appendcols 
+    [ search index=foo earliest=-1mon-1d latest=-mon 
+    | timechart span=10m count as "-1 Month"] 
+    | appendcols 
+    [ search index=foo earliest=-1w-1d latest=-w 
+    | timechart span=10m count as "-1 Week"]
+  description: Alternative to timewrap
+  tags:   
+    - utils
+    - time
+
+- title: List of installed non-core applications 
+  author: C. Cloutier
+  spl: |
+    | rest /services/apps/local 
+    | search disabled=0 core=0 
+    | table label title version
+  description: List of installed non-core applications 
+  tags:
+    - apps
+    - utils
+
+- title: KVStore fields
+  author: 
+  spl: |
+    | | rest /servicesNS/nobody/-/storage/collections/config splunk_server=local
+    | table title
+    | map search="
+    | rest /servicesNS/nobody/-/storage/collections/config/$title$ splunk_server=local
+    | table title field.*
+    | foreach field.* 
+    [| eval fieldlist=mvappend(fieldlist, \"<<FIELD>>\")]
+    | eval fieldlist=mvjoin(mvmap(fieldlist, mvindex(split(fieldlist, \".\"), 1)), \",\")
+    | table title fieldlist"
+  description: Get fields in KVStore collections
+  tags:     
+    - kvstore
+    - utils
+
+- title: Hosts no longer sending data 
+  author: 
+  spl: |
+    | |tstats latest(_time) as lt by index, sourcetype, host 
+    | eval NOW=now() 
+    | eval difftime=NOW-lt 
+    | rangemap field=difftime "0 - 60 Min"=0-3600 "1 - 24 Hours"=3601-86400 "1-7 Days"=86401-604800 default="Greater than 1 Week"
+  description: All hosts and sourcetypes that have reported data, and shows the time in seconds since anything was sent
+  tags:
+    - utils
+    - time
+
+- title: Search executions
+  author: 
+  spl: |
+    | index=_audit action=search sourcetype=audittrail search_id=* NOT (user=splunk-system-user) search!="'typeahead*"
+    | rex "search\=\'(search|\s+)\s(?P<search>[\n\S\s]+?(?=\'))"
+    | rex field=search "sourcetype\s*=\s*\"*(?<SourcetypeUsed>[^\s\"]+)" 
+    | rex field=search "index\s*=\s*\"*(?<IndexUsed>[^\s\"]+)"
+    | stats latest(_time) as Latest by user search SourcetypeUsed IndexUsed
+    | convert ctime(Latest)
+  description: Splunk searches: who executed them, on what index and sourcetype, and when
+  tags:
+    - utils
+    - search
+
+- title: REST API response time 
+  author: 
+  spl: |
+    | index=_internal sourcetype=splunkd_access source=*splunkd_access.log 
+    | rex "- - - (?P<Response_Time>.*)" 
+    | rex "\"(?<REST_uri>[^\"]+)" 
+    | table _time, REST_uri, Response_Time
+  description: Measure REST API response time from various Splunk REST URIs
+  tags:
+    - utils
+    - rest
+
+- title: User logon and logoff
+  author: 
+  spl: |
+    | source="wineventlog:security" action=success Logon_Type=2 (EventCode=4624 OR EventCode=4634 OR EventCode=4779 OR EventCode=4800 OR EventCode=4801 OR EventCode=4802 OR EventCode=4803 OR EventCode=4804 ) user!="anonymous logon" user!="DWM-*" user!="UMFD-*" user!=SYSTEM user!=*$ (Logon_Type=2 OR Logon_Type=7 OR Logon_Type=10)
+    | convert timeformat="%a %B %d %Y" ctime(_time) AS Date 
+    | streamstats earliest(_time) AS login, latest(_time) AS logout by Date, host
+    | eval session_duration=logout-login 
+    | eval h=floor(session_duration/3600) 
+    | eval m=floor((session_duration-(h*3600))/60) 
+    | eval SessionDuration=h."h ".m."m " 
+    | convert timeformat=" %m/%d/%y - %I:%M %P" ctime(login) AS login 
+    | convert timeformat=" %m/%d/%y - %I:%M %P" ctime(logout) AS logout 
+    | stats count AS auth_event_count, earliest(login) as login, max(SessionDuration) AS sesion_duration, latest(logout) as logout, values(Logon_Type) AS logon_types by Date, host, user
+  description: User logon and logoff events, including session duration, per user and host
+  tags:
+    - auth
+    - windows
+
+- title: List sourcetypes by index
+  author: 
+  spl: |
+    | tstats values(sourcetype) as Sourcetype latest(_time) as Time groupby index 
+    | convert ctime(Time)
+  description: List of sourcetypes by index, with the latest event time for each sourcetype
+  tags:   
+    - utils
+    - index
+
+- title: List deployment apps
+  author: 
+  spl: |
+    | rest /servicesNS/nobody/system/deployment/server/applications/
+    | search title =*
+    | rename title as DeploymentApplication, serverclasses as serverClass
+    | eval line=1 | accum line
+    | fields line DeploymentApplication serverClass
+  description: List of deployment apps, with the server classes they are assigned to
+  tags: 
+    - apps
+    - utils
+
+- title: List all fields for an index 
+  author: 
+  spl: |
+    | fieldsummary 
+    | table field
+  description: List all fields for an index 
+  tags: 
+    - fields
+    - utils
+
+- title: Find successful login after consecutive failures
+  author: 
+  spl: |
+    | from datamodel:"Authentication"."Authentication"
+    | search action=failure or action=success
+    | reverse
+    | streamstats window=0 current=true reset_after="(action=\"success\")" count as failure_count by src
+    | where action="success" and failure_count > 10
+  description: Find successful login after consecutive failures
+  tags: 
+    - auth
+
+- title: File share access in Windows
+  author: 
+  spl: |
+    | sourcetype="WinEventLog:Security" EventCode=5140 (Share_Name="*\\C$" OR Share_Name="*D$" OR Share_Name="*E$" OR Share_Name="*F$" OR Share_Name="*U$") NOT Source_Address="::1" 
+    | eval Destination_Sys1=trim(host,"1") 
+    | eval Destination_Sys2=trim(host,"2") 
+    | eval Dest_Sys1=lower(Destination_Sys1) 
+    | eval Dest_Sys2=lower(Destination_Sys2) 
+    | rename host AS Destination 
+    | rename Account_Domain AS Domain 
+    | where Account_Name!=Dest_Sys1 
+    | where Account_Name!=Dest_Sys2 
+    | stats count values(Domain) AS Domain, values(Source_Address) AS Source_IP, values(Destination) AS Destination, dc(Destination) AS Dest_Count, values(Share_Name) AS Share_Name, values(Share_Path) AS Share_Path by Account_Name
+  description: List of file share access in Windows, excluding administrative shares (C$, D$, E$, F$, U$) and local access (::1)
+  tags: 
+    - windows
+    - auth
+
+- title: Timestamp vs Indextime of Events
+  author: 
+  spl: |
+    | index=* 
+    | eventstats max(_time) as MAXt max(_indextime) as MAXit by host|eval timediff=round(MAXt - MAXit)
+    | convert ctime(MAXit) as idxtime ctime(MAXt) as Date 
+    | dedup timediff host 
+    | table idxtime Date timediff host 
+    | sort - timediff 
+    | rename Date as "Timestamp of Event" idxtime as "Index Time Timestamp"
+  description: Compare the timestamp of events with the index time to identify discrepancies
+  tags: 
+    - utils
+    - time
+
+- title: Failed Splunk logon attempts
+  author: 
+  spl: |
+    | index=_audit action="login attempt" info=failed 
+    | timechart count(user) as Failed_Attempts
+    | eventstats avg(Failed_Attempts) as Average
+  description: List of failed Splunk logon attempts, with a timechart showing the count of attempts and the average
+  tags: 
+    - auth
+    - splunk
+
+- title: Windows new service installed
+  author: 
+  spl: |
+    | sourcetype=WinEventLog:Security (EventCode=4697 OR EventCode=601) 
+    | eval Date=strftime(_time, "%Y/%m/%d") 
+    | eval Status=coalesce(Keywords,Type) 
+    | stats count by Date, Service_Name, Service_File_Name, Service_Account, host, Status
+  description: List of new services installed in Windows, including the service name, file name, account, host, and status
+  tags: 
+    - windows
+    - utils
+
+- title: Subsearch for a field
+  author: 
+  spl: |
+    | index=_internal _indextime > [ makeresults | eval it=now()-60 | return $it ]
+  description: Subsearch to find events with an _indextime greater than a specified time 
+  tags:   
+    - utils
+    - search
+
+- title: Gentimes usecase
+  author: 
+  spl: |
+    | gentimes start=10/1/15 end=10/5/1
+    | gentimes start=-9 end=-7 increment=1h 
+    | map maxsearches=48 search="search earliest=$starttime$ latest=$endtime$ eventtype=logon 
+      | bucket _time span=1h 
+      | top useother=f limit=5 block_type by _time 
+      | fields - percent"
+    | timechart span=1h sum(count) by block_type useother=f
+  description: Generates timestamp results starting with the exact time specified as start time. Each
+    result describes an adjacent, non­‐overlapping time range as indicated by the increment
+    value. Terminates when enough results are generated to pass the endtime value. Useful for generating time 
+    buckets not present due to lack of events within those time buckets
+  tags:  
+    - time
+
+- title: Metadata usecase
+  author: 
+  spl: |
+    | metadata type=sourcetypes 
+    | convert ctime(firstTime) timeformat="%Y-%m-%d %H:%M:%S"
+    | convert ctime(lastTime) timeformat="%Y-%m-%d %H:%M:%S"
+    | convert ctime(recentTime) timeformat="%Y-%m-%d %H:%M:%S"
+  description: Determines what is located in the indexes based on metadata
+  tags:
+    - utils
+    - metadata
+
+- title: Inline timeline eval
+  author: 
+  spl: |
+    | index=_internal sourcetype=splunkd source=*metrics.log group=per_sourcetype_thruput 
+    | eval ev2 = kb / ev 
+    | timechart span=1h eval(avg(kb) / avg(ev)) as "AVG KB per Event - 2" avg(ev2) as "AVG KB per Event - 1"
+  description: Use an eval statement in a timechart command
+  tags:
+    - time
+    - stats
+
+- title: Dynamic eval
+  author: 
+  spl: |
+    | eval cnt_{counter} = Value 
+    | stats avg(cnt_*) as *
+  description: Indirect reference
+  tags: 
+    - eval
+    - stats
+
+- title: Dynamic eval­ subsearch
+  author: 
+  spl: |
+    | index=_internal sourcetype=splunkd source=*metrics.log group=per_sourcetype_thruput 
+    | eval sub_host = replace(
+      [ | metadata type=hosts index=_internal 
+      | head 1 
+      | rename host as query 
+      | fields query 
+      | eval query="\"".query."\""], "\"", "")
+    | eval subsearch = if(host==sub_host,"setting_1","setting_2")
+  description: Use a subsearch to set a variable in an eval statement
+  tags: 
+    - eval
+    - search
+
+- title: 
+  author: 
+  spl: |
+    | 
+  description: 
+  tags:
+
+- title: 
+  author: 
+  spl: |
+    | 
+  description: 
+  tags:
+
+- title: 
+  author: 
+  spl: |
+    | 
+  description: 
+  tags:
+
 # - title: 
 #   author: 
 #   spl: 

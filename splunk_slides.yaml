@@ -1,0 +1,173 @@
+- year: 2020
+  slides:
+  - title: Master Joining Datasets Without Using Join
+    url: https://conf.splunk.com/files/2020/slides/TRU1761C.pdf
+  - title: TSTATS and PREFIX
+    url: https://conf.splunk.com/files/2020/slides/PLA1089C.pdf
+  - title: INGEST_EVAL and CLONE_SOURCETYPE: Advanced pipeline configurations
+    url: https://conf.splunk.com/files/2020/slides/PLA1154C.pdf
+  - title: SPL Rehab
+    url: https://conf.splunk.com/files/2020/slides/DEV1198C.pdf
+  - title: Best Practices for Actionable Alerts
+    url: https://conf.splunk.com/files/2020/slides/PLA1073C.pdf
+  - title: Alert-Fatigue-Induced Mutinies
+    url: https://conf.splunk.com/files/2020/slides/ITO1883B.pdf
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+
+- year: 2024
+  slides:
+  - title: Evolution of SPL - Meet SPL2
+    url: https://conf.splunk.com/files/2024/slides/DEV1442C.pdf
+  - title: Deep Learning for Compromised Account Detection Using Splunk
+    url: https://conf.splunk.com/files/2024/slides/DEV1474A.pdf
+  - title: How to Automatically Reduce False Positives with Generative AI
+    url: https://conf.splunk.com/files/2024/slides/SEC1423B.pdf
+  - title: Data Lake Federated Search for Amazon S3
+    url: https://conf.splunk.com/files/2024/slides/PLA1743B.pdf
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+
+- year: 2014
+  slides: 
+  - title: Observations and Recommendations on Splunk Performance 
+    url: https://conf.splunk.com/session/2014/conf2014_DritanBitincka_Splunk_UsingTrack.pdf
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+
+- year: 2015
+  slides:
+  - title: Hunting the Known Unknowns (with DNS)
+    url: https://conf.splunk.com/files/2015/conf2015_SBrant_RKovar_Splunk_SecurityCompliance_HuntingKnownUnkownsWith.pdf
+  - title: Best Practices for Splunk SSL
+    url: http://conf.splunk.com/session/2015/conf2015_DWaddle_DefensePointSecurity_deploying_SplunkSSLBestPractices.pdf
+  - title: Affordable Security: Making the most of free tools and data
+    url: https://conf.splunk.com/session/2015/conf2015_CMerchant_Oracle_SecurityCompliance_AffordableSecurityMakingThe.pdf
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+
+- year: 2022
+  slides: 
+  - title: Splunking Gender Equality Data
+    url: https://conf.splunk.com/files/2022/slides/COM1618B.pdf
+  - title: Proactively Monitor and Perform Network Forensic Analysis
+    url: https://conf.splunk.com/files/2022/slides/SEC1278B.pdf
+  - title: New Search and Dashboard Experience for Splunk Cloud Platform
+    url: https://conf.splunk.com/files/2022/slides/PLA1573C.pdf
+  - title: Providing Data and Vision to the Security Community
+    url: https://conf.splunk.com/files/2022/slides/SEC1652A.pdf
+  - title: SOAR Utility Apps to Level Your Playbooks
+    url: https://conf.splunk.com/files/2022/slides/SEC1700C.pdf
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+
+- year: 2019
+  slides: 
+  - title: Smart Store Deep Dive
+    url: https://conf.splunk.com/files/2019/slides/FN2168.pdf
+  - title: Data Models: Bridging the Knowledge Gap to Work with Complex Data
+    url: https://conf.splunk.com/files/2019/slides/IT2579.pdf
+  - title: Using Splunk Enterprise to Fight Data Exfiltration
+    url: https://conf.splunk.com/files/2019/slides/SEC1179.pdf
+  - title: Send your spreadsheets to Splunk!
+    url: https://conf.splunk.com/files/2019/slides/FN2192.pdf
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+
+- year: 2023
+  slides: 
+  - title: Using PrivateLink for Splunk Cloud Platform
+    url: https://conf.splunk.com/files/2023/slides/PLA1242B.pdf
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+
+- year: 
+  slides: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
+  - title: 
+    url: 
